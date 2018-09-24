@@ -1,0 +1,13 @@
+/home/shuojia/geant4/example/optical/CherProto/build/CMakeFiles/install/strip.dir
+/home/shuojia/geant4/example/optical/CherProto/build/CMakeFiles/install.dir
+/home/shuojia/geant4/example/optical/CherProto/build/CMakeFiles/install/local.dir
+/home/shuojia/geant4/example/optical/CherProto/build/CMakeFiles/list_install_components.dir
+/home/shuojia/geant4/example/optical/CherProto/build/CMakeFiles/edit_cache.dir
+/home/shuojia/geant4/example/optical/CherProto/build/CMakeFiles/rebuild_cache.dir
+/home/shuojia/geant4/example/optical/CherProto/build/CherProto/CMakeFiles/install/strip.dir
+/home/shuojia/geant4/example/optical/CherProto/build/CherProto/CMakeFiles/edit_cache.dir
+/home/shuojia/geant4/example/optical/CherProto/build/CherProto/CMakeFiles/CherProto.dir
+/home/shuojia/geant4/example/optical/CherProto/build/CherProto/CMakeFiles/rebuild_cache.dir
+/home/shuojia/geant4/example/optical/CherProto/build/CherProto/CMakeFiles/list_install_components.dir
+/home/shuojia/geant4/example/optical/CherProto/build/CherProto/CMakeFiles/install/local.dir
+/home/shuojia/geant4/example/optical/CherProto/build/CherProto/CMakeFiles/install.dir

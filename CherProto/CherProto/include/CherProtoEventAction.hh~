@@ -1,0 +1,21 @@
+// file CherProtoEventAction
+
+#ifndef CherProtoEventAction_h
+#define CherProtoEventAction_h 1
+
+#include "G4UserEventAction.hh"
+#include "globals.hh"
+
+class CherProtoEventAction : public G4UserEventAction
+{
+public:
+  CherProtoEventAction();
+  ~CherProtoEventAction();
+  void BeginOfEventAction(const G4Event* event);
+  void EndOfEventAction(const G4Event* event);
+
+  G4int SDHCID;
+  G4int mirrorHCID;
+private:
+};
+#endif
