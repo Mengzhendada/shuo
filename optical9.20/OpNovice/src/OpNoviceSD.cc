@@ -20,14 +20,14 @@ OpNoviceSD::~OpNoviceSD()
 }
 void OpNoviceSD::Initialize(G4HCofThisEvent* HCE)
 {
-   G4cout<<"GetName()"<<hitCollection->GetName()<<G4endl;
+  //G4cout<<"GetName()"<<hitCollection->GetName()<<G4endl;
   hitCollection = new OpNoviceHitsCollection(GetName(),collectionName[0]);
   static G4int HCID = -1;
   if (HCID<0) HCID = GetCollectionID(0);
   G4cout<<"check Initialize"<<G4endl;
   G4cout<<"HCID"<<HCID<<G4endl;
   HCE->AddHitsCollection(HCID,hitCollection);
-  sum = 0;
+  // sum = 0;
   // sum1=0;
   TrackID.clear();
   
@@ -72,17 +72,17 @@ G4bool OpNoviceSD::ProcessHits(G4Step *step, G4TouchableHistory*)
 	  }
 	else
 	  {
-	    TrackID.push_back(step->GetTrack()->GetTrackID());
+	     TrackID.push_back(step->GetTrack()->GetTrackID());
 	    G4AnalysisManager* analysisManager = G4AnalysisManager::Instance();
 	    analysisManager->FillNtupleIColumn(0,0,step->GetTrack()->GetTrackID());
 	    analysisManager->FillNtupleDColumn(0,1,step->GetTrack()->GetTotalEnergy()*eV);
 	    analysisManager->FillNtupleIColumn(0,2,EventN);
 	    analysisManager->FillNtupleDColumn(0,3,step->GetTrack()->GetPosition().x());
 	    analysisManager->FillNtupleDColumn(0,4,step->GetTrack()->GetPosition().y());
-	    analysisManager->FillNtupleDColumn(0,4,step->GetTrack()->GetPosition().z());
+	    analysisManager->FillNtupleDColumn(0,5,step->GetTrack()->GetPosition().z());
 	    analysisManager->AddNtupleRow(0);
 	
-	    sum++;
+	    // sum++;
 	    // G4cout<<"sum in Process"<<sum<<G4endl;
 
 	  }
@@ -94,9 +94,9 @@ G4bool OpNoviceSD::ProcessHits(G4Step *step, G4TouchableHistory*)
 	  }
       else
 	{
-	  TrackID.push_back(step->GetTrack()->GetTrackID());
+	   TrackID.push_back(step->GetTrack()->GetTrackID());
 	  G4cout<<"not SD"<<G4endl;
-	  sum++;
+	  //sum++;
 	  // G4cout<<"sum1 in Process"<<sum1<<G4endl;
 	}
     }
@@ -117,14 +117,14 @@ void OpNoviceSD::EndOfEvent(G4HCofThisEvent* HCE)
     sort(TrackID.begin(),TrackID.end());
     TrackID.erase(unique(TrackID.begin(),TrackID.end()),TrackID.end());
     for(unsigned int i=0;i<TrackID.size();i++){
-      G4cout<<"TrackIDsorted"<<TrackID[i]<<G4endl;}
+      //  G4cout<<"TrackIDsorted"<<TrackID[i]<<G4endl;}
   
     G4cout<<"size of vector"<<TrackID.size()<<G4endl;
     G4AnalysisManager* analysisManager = G4AnalysisManager::Instance();
-    analysisManager->FillH1(0,(int)TrackID.size());
-    // analysisManager->FillNtupleIColumn(0,0,(int)TrackID.size());
+    // analysisManager->FillH1(0,(int)TrackID.size());
+     analysisManager->FillNtupleIColumn(0,6,(int)TrackID.size());
     // analysisManager->AddNtupleRow(0);
-    EventN++;
+    // EventN++;
   
  
 

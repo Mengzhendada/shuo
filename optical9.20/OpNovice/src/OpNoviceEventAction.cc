@@ -33,15 +33,15 @@ void OpNoviceEventAction::BeginOfEventAction(const G4Event* event)
 {}
 void OpNoviceEventAction::EndOfEventAction(const G4Event* event)
 {
-    if (SDHCID ==-1){
-    SDHCID = G4SDManager::GetSDMpointer()->GetCollectionID("SDHitCollection");
-    mirrorHCID = G4SDManager::GetSDMpointer()->GetCollectionID("mirrorHitCollection");
-  }
-    auto SDHC = GetHitsCollection(SDHCID,event);
-    auto mirrorHC = GetHitsCollection(mirrorHCID,event);
+    // if (SDHCID ==-1){
+  //   SDHCID = G4SDManager::GetSDMpointer()->GetCollectionID("SDHitCollection");
+  //   mirrorHCID = G4SDManager::GetSDMpointer()->GetCollectionID("mirrorHitCollection");
+  // }
+  //   auto SDHC = GetHitsCollection(SDHCID,event);
+  //   auto mirrorHC = GetHitsCollection(mirrorHCID,event);
 
-    auto SDHit = (*SDHC)[SDHC->entries()-1];
-    auto mirrorHit=(*mirrorHC)[mirrorHC->entries()-1];
+  //   auto SDHit = (*SDHC)[SDHC->entries()-1];
+  //   auto mirrorHit=(*mirrorHC)[mirrorHC->entries()-1];
 
     // G4cout<<"HitCounting"<< SDHIT->Getcounting()<<G4endl;
     

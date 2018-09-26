@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/shuojia/geant4/example/optical/optical9.20
+CMAKE_SOURCE_DIR = /home/shuojia/geant4/example/git/shuo/optical9.20
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/shuojia/geant4/example/optical/optical9.20/build
+CMAKE_BINARY_DIR = /home/shuojia/geant4/example/git/shuo/optical9.20/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,9 +126,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/shuojia/geant4/example/optical/optical9.20/build/CMakeFiles /home/shuojia/geant4/example/optical/optical9.20/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shuojia/geant4/example/git/shuo/optical9.20/build/CMakeFiles /home/shuojia/geant4/example/git/shuo/optical9.20/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/shuojia/geant4/example/optical/optical9.20/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shuojia/geant4/example/git/shuo/optical9.20/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -169,32 +169,6 @@ OpNovice/fast:
 	$(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/build
 .PHONY : OpNovice/fast
 
-#=============================================================================
-# Target rules for targets named LXe
-
-# Build rule for target.
-LXe: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 LXe
-.PHONY : LXe
-
-# fast build rule for target.
-LXe/fast:
-	$(MAKE) -f LXe/CMakeFiles/LXe.dir/build.make LXe/CMakeFiles/LXe.dir/build
-.PHONY : LXe/fast
-
-#=============================================================================
-# Target rules for targets named wls
-
-# Build rule for target.
-wls: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 wls
-.PHONY : wls
-
-# fast build rule for target.
-wls/fast:
-	$(MAKE) -f wls/CMakeFiles/wls.dir/build.make wls/CMakeFiles/wls.dir/build
-.PHONY : wls/fast
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -208,8 +182,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... OpNovice"
-	@echo "... LXe"
-	@echo "... wls"
 .PHONY : help
 
 

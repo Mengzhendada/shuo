@@ -65,6 +65,7 @@ OpNoviceRunAction::OpNoviceRunAction()
   analysisManager->CreateNtupleDColumn(0,"xposition");
   analysisManager->CreateNtupleDColumn(0,"yposition");
   analysisManager->CreateNtupleDColumn(0,"zposition");
+  analysisManager->CreateNtupleIColumn(0,"TrackIDsize");
   analysisManager->FinishNtuple(0);
 }
 

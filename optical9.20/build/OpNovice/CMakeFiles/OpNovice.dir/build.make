@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/shuojia/geant4/example/optical/optical9.20
+CMAKE_SOURCE_DIR = /home/shuojia/geant4/example/git/shuo/optical9.20
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/shuojia/geant4/example/optical/optical9.20/build
+CMAKE_BINARY_DIR = /home/shuojia/geant4/example/git/shuo/optical9.20/build
 
 # Include any dependencies generated for this target.
 include OpNovice/CMakeFiles/OpNovice.dir/depend.make
@@ -59,16 +59,16 @@ include OpNovice/CMakeFiles/OpNovice.dir/flags.make
 
 OpNovice/CMakeFiles/OpNovice.dir/OpNovice.cc.o: OpNovice/CMakeFiles/OpNovice.dir/flags.make
 OpNovice/CMakeFiles/OpNovice.dir/OpNovice.cc.o: ../OpNovice/OpNovice.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuojia/geant4/example/optical/optical9.20/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object OpNovice/CMakeFiles/OpNovice.dir/OpNovice.cc.o"
-	cd /home/shuojia/geant4/example/optical/optical9.20/build/OpNovice && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpNovice.dir/OpNovice.cc.o -c /home/shuojia/geant4/example/optical/optical9.20/OpNovice/OpNovice.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuojia/geant4/example/git/shuo/optical9.20/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object OpNovice/CMakeFiles/OpNovice.dir/OpNovice.cc.o"
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build/OpNovice && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpNovice.dir/OpNovice.cc.o -c /home/shuojia/geant4/example/git/shuo/optical9.20/OpNovice/OpNovice.cc
 
 OpNovice/CMakeFiles/OpNovice.dir/OpNovice.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpNovice.dir/OpNovice.cc.i"
-	cd /home/shuojia/geant4/example/optical/optical9.20/build/OpNovice && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shuojia/geant4/example/optical/optical9.20/OpNovice/OpNovice.cc > CMakeFiles/OpNovice.dir/OpNovice.cc.i
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build/OpNovice && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shuojia/geant4/example/git/shuo/optical9.20/OpNovice/OpNovice.cc > CMakeFiles/OpNovice.dir/OpNovice.cc.i
 
 OpNovice/CMakeFiles/OpNovice.dir/OpNovice.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpNovice.dir/OpNovice.cc.s"
-	cd /home/shuojia/geant4/example/optical/optical9.20/build/OpNovice && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shuojia/geant4/example/optical/optical9.20/OpNovice/OpNovice.cc -o CMakeFiles/OpNovice.dir/OpNovice.cc.s
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build/OpNovice && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shuojia/geant4/example/git/shuo/optical9.20/OpNovice/OpNovice.cc -o CMakeFiles/OpNovice.dir/OpNovice.cc.s
 
 OpNovice/CMakeFiles/OpNovice.dir/OpNovice.cc.o.requires:
 
@@ -83,16 +83,16 @@ OpNovice/CMakeFiles/OpNovice.dir/OpNovice.cc.o.provides.build: OpNovice/CMakeFil
 
 OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceActionInitialization.cc.o: OpNovice/CMakeFiles/OpNovice.dir/flags.make
 OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceActionInitialization.cc.o: ../OpNovice/src/OpNoviceActionInitialization.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuojia/geant4/example/optical/optical9.20/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceActionInitialization.cc.o"
-	cd /home/shuojia/geant4/example/optical/optical9.20/build/OpNovice && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpNovice.dir/src/OpNoviceActionInitialization.cc.o -c /home/shuojia/geant4/example/optical/optical9.20/OpNovice/src/OpNoviceActionInitialization.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuojia/geant4/example/git/shuo/optical9.20/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceActionInitialization.cc.o"
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build/OpNovice && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpNovice.dir/src/OpNoviceActionInitialization.cc.o -c /home/shuojia/geant4/example/git/shuo/optical9.20/OpNovice/src/OpNoviceActionInitialization.cc
 
 OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceActionInitialization.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpNovice.dir/src/OpNoviceActionInitialization.cc.i"
-	cd /home/shuojia/geant4/example/optical/optical9.20/build/OpNovice && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shuojia/geant4/example/optical/optical9.20/OpNovice/src/OpNoviceActionInitialization.cc > CMakeFiles/OpNovice.dir/src/OpNoviceActionInitialization.cc.i
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build/OpNovice && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shuojia/geant4/example/git/shuo/optical9.20/OpNovice/src/OpNoviceActionInitialization.cc > CMakeFiles/OpNovice.dir/src/OpNoviceActionInitialization.cc.i
 
 OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceActionInitialization.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpNovice.dir/src/OpNoviceActionInitialization.cc.s"
-	cd /home/shuojia/geant4/example/optical/optical9.20/build/OpNovice && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shuojia/geant4/example/optical/optical9.20/OpNovice/src/OpNoviceActionInitialization.cc -o CMakeFiles/OpNovice.dir/src/OpNoviceActionInitialization.cc.s
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build/OpNovice && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shuojia/geant4/example/git/shuo/optical9.20/OpNovice/src/OpNoviceActionInitialization.cc -o CMakeFiles/OpNovice.dir/src/OpNoviceActionInitialization.cc.s
 
 OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceActionInitialization.cc.o.requires:
 
@@ -107,16 +107,16 @@ OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceActionInitialization.cc.o.provides.
 
 OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceDetectorConstruction.cc.o: OpNovice/CMakeFiles/OpNovice.dir/flags.make
 OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceDetectorConstruction.cc.o: ../OpNovice/src/OpNoviceDetectorConstruction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuojia/geant4/example/optical/optical9.20/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceDetectorConstruction.cc.o"
-	cd /home/shuojia/geant4/example/optical/optical9.20/build/OpNovice && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpNovice.dir/src/OpNoviceDetectorConstruction.cc.o -c /home/shuojia/geant4/example/optical/optical9.20/OpNovice/src/OpNoviceDetectorConstruction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuojia/geant4/example/git/shuo/optical9.20/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceDetectorConstruction.cc.o"
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build/OpNovice && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpNovice.dir/src/OpNoviceDetectorConstruction.cc.o -c /home/shuojia/geant4/example/git/shuo/optical9.20/OpNovice/src/OpNoviceDetectorConstruction.cc
 
 OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceDetectorConstruction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpNovice.dir/src/OpNoviceDetectorConstruction.cc.i"
-	cd /home/shuojia/geant4/example/optical/optical9.20/build/OpNovice && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shuojia/geant4/example/optical/optical9.20/OpNovice/src/OpNoviceDetectorConstruction.cc > CMakeFiles/OpNovice.dir/src/OpNoviceDetectorConstruction.cc.i
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build/OpNovice && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shuojia/geant4/example/git/shuo/optical9.20/OpNovice/src/OpNoviceDetectorConstruction.cc > CMakeFiles/OpNovice.dir/src/OpNoviceDetectorConstruction.cc.i
 
 OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceDetectorConstruction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpNovice.dir/src/OpNoviceDetectorConstruction.cc.s"
-	cd /home/shuojia/geant4/example/optical/optical9.20/build/OpNovice && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shuojia/geant4/example/optical/optical9.20/OpNovice/src/OpNoviceDetectorConstruction.cc -o CMakeFiles/OpNovice.dir/src/OpNoviceDetectorConstruction.cc.s
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build/OpNovice && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shuojia/geant4/example/git/shuo/optical9.20/OpNovice/src/OpNoviceDetectorConstruction.cc -o CMakeFiles/OpNovice.dir/src/OpNoviceDetectorConstruction.cc.s
 
 OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceDetectorConstruction.cc.o.requires:
 
@@ -131,16 +131,16 @@ OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceDetectorConstruction.cc.o.provides.
 
 OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceEventAction.cc.o: OpNovice/CMakeFiles/OpNovice.dir/flags.make
 OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceEventAction.cc.o: ../OpNovice/src/OpNoviceEventAction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuojia/geant4/example/optical/optical9.20/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceEventAction.cc.o"
-	cd /home/shuojia/geant4/example/optical/optical9.20/build/OpNovice && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpNovice.dir/src/OpNoviceEventAction.cc.o -c /home/shuojia/geant4/example/optical/optical9.20/OpNovice/src/OpNoviceEventAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuojia/geant4/example/git/shuo/optical9.20/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceEventAction.cc.o"
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build/OpNovice && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpNovice.dir/src/OpNoviceEventAction.cc.o -c /home/shuojia/geant4/example/git/shuo/optical9.20/OpNovice/src/OpNoviceEventAction.cc
 
 OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceEventAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpNovice.dir/src/OpNoviceEventAction.cc.i"
-	cd /home/shuojia/geant4/example/optical/optical9.20/build/OpNovice && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shuojia/geant4/example/optical/optical9.20/OpNovice/src/OpNoviceEventAction.cc > CMakeFiles/OpNovice.dir/src/OpNoviceEventAction.cc.i
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build/OpNovice && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shuojia/geant4/example/git/shuo/optical9.20/OpNovice/src/OpNoviceEventAction.cc > CMakeFiles/OpNovice.dir/src/OpNoviceEventAction.cc.i
 
 OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceEventAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpNovice.dir/src/OpNoviceEventAction.cc.s"
-	cd /home/shuojia/geant4/example/optical/optical9.20/build/OpNovice && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shuojia/geant4/example/optical/optical9.20/OpNovice/src/OpNoviceEventAction.cc -o CMakeFiles/OpNovice.dir/src/OpNoviceEventAction.cc.s
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build/OpNovice && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shuojia/geant4/example/git/shuo/optical9.20/OpNovice/src/OpNoviceEventAction.cc -o CMakeFiles/OpNovice.dir/src/OpNoviceEventAction.cc.s
 
 OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceEventAction.cc.o.requires:
 
@@ -155,16 +155,16 @@ OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceEventAction.cc.o.provides.build: Op
 
 OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceHit.cc.o: OpNovice/CMakeFiles/OpNovice.dir/flags.make
 OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceHit.cc.o: ../OpNovice/src/OpNoviceHit.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuojia/geant4/example/optical/optical9.20/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceHit.cc.o"
-	cd /home/shuojia/geant4/example/optical/optical9.20/build/OpNovice && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpNovice.dir/src/OpNoviceHit.cc.o -c /home/shuojia/geant4/example/optical/optical9.20/OpNovice/src/OpNoviceHit.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuojia/geant4/example/git/shuo/optical9.20/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceHit.cc.o"
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build/OpNovice && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpNovice.dir/src/OpNoviceHit.cc.o -c /home/shuojia/geant4/example/git/shuo/optical9.20/OpNovice/src/OpNoviceHit.cc
 
 OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceHit.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpNovice.dir/src/OpNoviceHit.cc.i"
-	cd /home/shuojia/geant4/example/optical/optical9.20/build/OpNovice && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shuojia/geant4/example/optical/optical9.20/OpNovice/src/OpNoviceHit.cc > CMakeFiles/OpNovice.dir/src/OpNoviceHit.cc.i
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build/OpNovice && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shuojia/geant4/example/git/shuo/optical9.20/OpNovice/src/OpNoviceHit.cc > CMakeFiles/OpNovice.dir/src/OpNoviceHit.cc.i
 
 OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceHit.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpNovice.dir/src/OpNoviceHit.cc.s"
-	cd /home/shuojia/geant4/example/optical/optical9.20/build/OpNovice && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shuojia/geant4/example/optical/optical9.20/OpNovice/src/OpNoviceHit.cc -o CMakeFiles/OpNovice.dir/src/OpNoviceHit.cc.s
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build/OpNovice && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shuojia/geant4/example/git/shuo/optical9.20/OpNovice/src/OpNoviceHit.cc -o CMakeFiles/OpNovice.dir/src/OpNoviceHit.cc.s
 
 OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceHit.cc.o.requires:
 
@@ -179,16 +179,16 @@ OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceHit.cc.o.provides.build: OpNovice/C
 
 OpNovice/CMakeFiles/OpNovice.dir/src/OpNovicePhysicsList.cc.o: OpNovice/CMakeFiles/OpNovice.dir/flags.make
 OpNovice/CMakeFiles/OpNovice.dir/src/OpNovicePhysicsList.cc.o: ../OpNovice/src/OpNovicePhysicsList.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuojia/geant4/example/optical/optical9.20/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object OpNovice/CMakeFiles/OpNovice.dir/src/OpNovicePhysicsList.cc.o"
-	cd /home/shuojia/geant4/example/optical/optical9.20/build/OpNovice && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpNovice.dir/src/OpNovicePhysicsList.cc.o -c /home/shuojia/geant4/example/optical/optical9.20/OpNovice/src/OpNovicePhysicsList.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuojia/geant4/example/git/shuo/optical9.20/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object OpNovice/CMakeFiles/OpNovice.dir/src/OpNovicePhysicsList.cc.o"
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build/OpNovice && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpNovice.dir/src/OpNovicePhysicsList.cc.o -c /home/shuojia/geant4/example/git/shuo/optical9.20/OpNovice/src/OpNovicePhysicsList.cc
 
 OpNovice/CMakeFiles/OpNovice.dir/src/OpNovicePhysicsList.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpNovice.dir/src/OpNovicePhysicsList.cc.i"
-	cd /home/shuojia/geant4/example/optical/optical9.20/build/OpNovice && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shuojia/geant4/example/optical/optical9.20/OpNovice/src/OpNovicePhysicsList.cc > CMakeFiles/OpNovice.dir/src/OpNovicePhysicsList.cc.i
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build/OpNovice && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shuojia/geant4/example/git/shuo/optical9.20/OpNovice/src/OpNovicePhysicsList.cc > CMakeFiles/OpNovice.dir/src/OpNovicePhysicsList.cc.i
 
 OpNovice/CMakeFiles/OpNovice.dir/src/OpNovicePhysicsList.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpNovice.dir/src/OpNovicePhysicsList.cc.s"
-	cd /home/shuojia/geant4/example/optical/optical9.20/build/OpNovice && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shuojia/geant4/example/optical/optical9.20/OpNovice/src/OpNovicePhysicsList.cc -o CMakeFiles/OpNovice.dir/src/OpNovicePhysicsList.cc.s
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build/OpNovice && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shuojia/geant4/example/git/shuo/optical9.20/OpNovice/src/OpNovicePhysicsList.cc -o CMakeFiles/OpNovice.dir/src/OpNovicePhysicsList.cc.s
 
 OpNovice/CMakeFiles/OpNovice.dir/src/OpNovicePhysicsList.cc.o.requires:
 
@@ -203,16 +203,16 @@ OpNovice/CMakeFiles/OpNovice.dir/src/OpNovicePhysicsList.cc.o.provides.build: Op
 
 OpNovice/CMakeFiles/OpNovice.dir/src/OpNovicePhysicsListMessenger.cc.o: OpNovice/CMakeFiles/OpNovice.dir/flags.make
 OpNovice/CMakeFiles/OpNovice.dir/src/OpNovicePhysicsListMessenger.cc.o: ../OpNovice/src/OpNovicePhysicsListMessenger.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuojia/geant4/example/optical/optical9.20/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object OpNovice/CMakeFiles/OpNovice.dir/src/OpNovicePhysicsListMessenger.cc.o"
-	cd /home/shuojia/geant4/example/optical/optical9.20/build/OpNovice && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpNovice.dir/src/OpNovicePhysicsListMessenger.cc.o -c /home/shuojia/geant4/example/optical/optical9.20/OpNovice/src/OpNovicePhysicsListMessenger.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuojia/geant4/example/git/shuo/optical9.20/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object OpNovice/CMakeFiles/OpNovice.dir/src/OpNovicePhysicsListMessenger.cc.o"
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build/OpNovice && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpNovice.dir/src/OpNovicePhysicsListMessenger.cc.o -c /home/shuojia/geant4/example/git/shuo/optical9.20/OpNovice/src/OpNovicePhysicsListMessenger.cc
 
 OpNovice/CMakeFiles/OpNovice.dir/src/OpNovicePhysicsListMessenger.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpNovice.dir/src/OpNovicePhysicsListMessenger.cc.i"
-	cd /home/shuojia/geant4/example/optical/optical9.20/build/OpNovice && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shuojia/geant4/example/optical/optical9.20/OpNovice/src/OpNovicePhysicsListMessenger.cc > CMakeFiles/OpNovice.dir/src/OpNovicePhysicsListMessenger.cc.i
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build/OpNovice && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shuojia/geant4/example/git/shuo/optical9.20/OpNovice/src/OpNovicePhysicsListMessenger.cc > CMakeFiles/OpNovice.dir/src/OpNovicePhysicsListMessenger.cc.i
 
 OpNovice/CMakeFiles/OpNovice.dir/src/OpNovicePhysicsListMessenger.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpNovice.dir/src/OpNovicePhysicsListMessenger.cc.s"
-	cd /home/shuojia/geant4/example/optical/optical9.20/build/OpNovice && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shuojia/geant4/example/optical/optical9.20/OpNovice/src/OpNovicePhysicsListMessenger.cc -o CMakeFiles/OpNovice.dir/src/OpNovicePhysicsListMessenger.cc.s
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build/OpNovice && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shuojia/geant4/example/git/shuo/optical9.20/OpNovice/src/OpNovicePhysicsListMessenger.cc -o CMakeFiles/OpNovice.dir/src/OpNovicePhysicsListMessenger.cc.s
 
 OpNovice/CMakeFiles/OpNovice.dir/src/OpNovicePhysicsListMessenger.cc.o.requires:
 
@@ -227,16 +227,16 @@ OpNovice/CMakeFiles/OpNovice.dir/src/OpNovicePhysicsListMessenger.cc.o.provides.
 
 OpNovice/CMakeFiles/OpNovice.dir/src/OpNovicePrimaryGeneratorAction.cc.o: OpNovice/CMakeFiles/OpNovice.dir/flags.make
 OpNovice/CMakeFiles/OpNovice.dir/src/OpNovicePrimaryGeneratorAction.cc.o: ../OpNovice/src/OpNovicePrimaryGeneratorAction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuojia/geant4/example/optical/optical9.20/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object OpNovice/CMakeFiles/OpNovice.dir/src/OpNovicePrimaryGeneratorAction.cc.o"
-	cd /home/shuojia/geant4/example/optical/optical9.20/build/OpNovice && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpNovice.dir/src/OpNovicePrimaryGeneratorAction.cc.o -c /home/shuojia/geant4/example/optical/optical9.20/OpNovice/src/OpNovicePrimaryGeneratorAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuojia/geant4/example/git/shuo/optical9.20/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object OpNovice/CMakeFiles/OpNovice.dir/src/OpNovicePrimaryGeneratorAction.cc.o"
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build/OpNovice && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpNovice.dir/src/OpNovicePrimaryGeneratorAction.cc.o -c /home/shuojia/geant4/example/git/shuo/optical9.20/OpNovice/src/OpNovicePrimaryGeneratorAction.cc
 
 OpNovice/CMakeFiles/OpNovice.dir/src/OpNovicePrimaryGeneratorAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpNovice.dir/src/OpNovicePrimaryGeneratorAction.cc.i"
-	cd /home/shuojia/geant4/example/optical/optical9.20/build/OpNovice && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shuojia/geant4/example/optical/optical9.20/OpNovice/src/OpNovicePrimaryGeneratorAction.cc > CMakeFiles/OpNovice.dir/src/OpNovicePrimaryGeneratorAction.cc.i
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build/OpNovice && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shuojia/geant4/example/git/shuo/optical9.20/OpNovice/src/OpNovicePrimaryGeneratorAction.cc > CMakeFiles/OpNovice.dir/src/OpNovicePrimaryGeneratorAction.cc.i
 
 OpNovice/CMakeFiles/OpNovice.dir/src/OpNovicePrimaryGeneratorAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpNovice.dir/src/OpNovicePrimaryGeneratorAction.cc.s"
-	cd /home/shuojia/geant4/example/optical/optical9.20/build/OpNovice && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shuojia/geant4/example/optical/optical9.20/OpNovice/src/OpNovicePrimaryGeneratorAction.cc -o CMakeFiles/OpNovice.dir/src/OpNovicePrimaryGeneratorAction.cc.s
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build/OpNovice && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shuojia/geant4/example/git/shuo/optical9.20/OpNovice/src/OpNovicePrimaryGeneratorAction.cc -o CMakeFiles/OpNovice.dir/src/OpNovicePrimaryGeneratorAction.cc.s
 
 OpNovice/CMakeFiles/OpNovice.dir/src/OpNovicePrimaryGeneratorAction.cc.o.requires:
 
@@ -251,16 +251,16 @@ OpNovice/CMakeFiles/OpNovice.dir/src/OpNovicePrimaryGeneratorAction.cc.o.provide
 
 OpNovice/CMakeFiles/OpNovice.dir/src/OpNovicePrimaryGeneratorMessenger.cc.o: OpNovice/CMakeFiles/OpNovice.dir/flags.make
 OpNovice/CMakeFiles/OpNovice.dir/src/OpNovicePrimaryGeneratorMessenger.cc.o: ../OpNovice/src/OpNovicePrimaryGeneratorMessenger.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuojia/geant4/example/optical/optical9.20/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object OpNovice/CMakeFiles/OpNovice.dir/src/OpNovicePrimaryGeneratorMessenger.cc.o"
-	cd /home/shuojia/geant4/example/optical/optical9.20/build/OpNovice && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpNovice.dir/src/OpNovicePrimaryGeneratorMessenger.cc.o -c /home/shuojia/geant4/example/optical/optical9.20/OpNovice/src/OpNovicePrimaryGeneratorMessenger.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuojia/geant4/example/git/shuo/optical9.20/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object OpNovice/CMakeFiles/OpNovice.dir/src/OpNovicePrimaryGeneratorMessenger.cc.o"
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build/OpNovice && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpNovice.dir/src/OpNovicePrimaryGeneratorMessenger.cc.o -c /home/shuojia/geant4/example/git/shuo/optical9.20/OpNovice/src/OpNovicePrimaryGeneratorMessenger.cc
 
 OpNovice/CMakeFiles/OpNovice.dir/src/OpNovicePrimaryGeneratorMessenger.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpNovice.dir/src/OpNovicePrimaryGeneratorMessenger.cc.i"
-	cd /home/shuojia/geant4/example/optical/optical9.20/build/OpNovice && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shuojia/geant4/example/optical/optical9.20/OpNovice/src/OpNovicePrimaryGeneratorMessenger.cc > CMakeFiles/OpNovice.dir/src/OpNovicePrimaryGeneratorMessenger.cc.i
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build/OpNovice && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shuojia/geant4/example/git/shuo/optical9.20/OpNovice/src/OpNovicePrimaryGeneratorMessenger.cc > CMakeFiles/OpNovice.dir/src/OpNovicePrimaryGeneratorMessenger.cc.i
 
 OpNovice/CMakeFiles/OpNovice.dir/src/OpNovicePrimaryGeneratorMessenger.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpNovice.dir/src/OpNovicePrimaryGeneratorMessenger.cc.s"
-	cd /home/shuojia/geant4/example/optical/optical9.20/build/OpNovice && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shuojia/geant4/example/optical/optical9.20/OpNovice/src/OpNovicePrimaryGeneratorMessenger.cc -o CMakeFiles/OpNovice.dir/src/OpNovicePrimaryGeneratorMessenger.cc.s
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build/OpNovice && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shuojia/geant4/example/git/shuo/optical9.20/OpNovice/src/OpNovicePrimaryGeneratorMessenger.cc -o CMakeFiles/OpNovice.dir/src/OpNovicePrimaryGeneratorMessenger.cc.s
 
 OpNovice/CMakeFiles/OpNovice.dir/src/OpNovicePrimaryGeneratorMessenger.cc.o.requires:
 
@@ -275,16 +275,16 @@ OpNovice/CMakeFiles/OpNovice.dir/src/OpNovicePrimaryGeneratorMessenger.cc.o.prov
 
 OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceRunAction.cc.o: OpNovice/CMakeFiles/OpNovice.dir/flags.make
 OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceRunAction.cc.o: ../OpNovice/src/OpNoviceRunAction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuojia/geant4/example/optical/optical9.20/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceRunAction.cc.o"
-	cd /home/shuojia/geant4/example/optical/optical9.20/build/OpNovice && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpNovice.dir/src/OpNoviceRunAction.cc.o -c /home/shuojia/geant4/example/optical/optical9.20/OpNovice/src/OpNoviceRunAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuojia/geant4/example/git/shuo/optical9.20/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceRunAction.cc.o"
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build/OpNovice && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpNovice.dir/src/OpNoviceRunAction.cc.o -c /home/shuojia/geant4/example/git/shuo/optical9.20/OpNovice/src/OpNoviceRunAction.cc
 
 OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceRunAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpNovice.dir/src/OpNoviceRunAction.cc.i"
-	cd /home/shuojia/geant4/example/optical/optical9.20/build/OpNovice && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shuojia/geant4/example/optical/optical9.20/OpNovice/src/OpNoviceRunAction.cc > CMakeFiles/OpNovice.dir/src/OpNoviceRunAction.cc.i
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build/OpNovice && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shuojia/geant4/example/git/shuo/optical9.20/OpNovice/src/OpNoviceRunAction.cc > CMakeFiles/OpNovice.dir/src/OpNoviceRunAction.cc.i
 
 OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceRunAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpNovice.dir/src/OpNoviceRunAction.cc.s"
-	cd /home/shuojia/geant4/example/optical/optical9.20/build/OpNovice && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shuojia/geant4/example/optical/optical9.20/OpNovice/src/OpNoviceRunAction.cc -o CMakeFiles/OpNovice.dir/src/OpNoviceRunAction.cc.s
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build/OpNovice && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shuojia/geant4/example/git/shuo/optical9.20/OpNovice/src/OpNoviceRunAction.cc -o CMakeFiles/OpNovice.dir/src/OpNoviceRunAction.cc.s
 
 OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceRunAction.cc.o.requires:
 
@@ -299,16 +299,16 @@ OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceRunAction.cc.o.provides.build: OpNo
 
 OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceSD.cc.o: OpNovice/CMakeFiles/OpNovice.dir/flags.make
 OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceSD.cc.o: ../OpNovice/src/OpNoviceSD.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuojia/geant4/example/optical/optical9.20/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceSD.cc.o"
-	cd /home/shuojia/geant4/example/optical/optical9.20/build/OpNovice && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpNovice.dir/src/OpNoviceSD.cc.o -c /home/shuojia/geant4/example/optical/optical9.20/OpNovice/src/OpNoviceSD.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuojia/geant4/example/git/shuo/optical9.20/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceSD.cc.o"
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build/OpNovice && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpNovice.dir/src/OpNoviceSD.cc.o -c /home/shuojia/geant4/example/git/shuo/optical9.20/OpNovice/src/OpNoviceSD.cc
 
 OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceSD.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpNovice.dir/src/OpNoviceSD.cc.i"
-	cd /home/shuojia/geant4/example/optical/optical9.20/build/OpNovice && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shuojia/geant4/example/optical/optical9.20/OpNovice/src/OpNoviceSD.cc > CMakeFiles/OpNovice.dir/src/OpNoviceSD.cc.i
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build/OpNovice && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shuojia/geant4/example/git/shuo/optical9.20/OpNovice/src/OpNoviceSD.cc > CMakeFiles/OpNovice.dir/src/OpNoviceSD.cc.i
 
 OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceSD.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpNovice.dir/src/OpNoviceSD.cc.s"
-	cd /home/shuojia/geant4/example/optical/optical9.20/build/OpNovice && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shuojia/geant4/example/optical/optical9.20/OpNovice/src/OpNoviceSD.cc -o CMakeFiles/OpNovice.dir/src/OpNoviceSD.cc.s
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build/OpNovice && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shuojia/geant4/example/git/shuo/optical9.20/OpNovice/src/OpNoviceSD.cc -o CMakeFiles/OpNovice.dir/src/OpNoviceSD.cc.s
 
 OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceSD.cc.o.requires:
 
@@ -323,16 +323,16 @@ OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceSD.cc.o.provides.build: OpNovice/CM
 
 OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceStackingAction.cc.o: OpNovice/CMakeFiles/OpNovice.dir/flags.make
 OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceStackingAction.cc.o: ../OpNovice/src/OpNoviceStackingAction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuojia/geant4/example/optical/optical9.20/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceStackingAction.cc.o"
-	cd /home/shuojia/geant4/example/optical/optical9.20/build/OpNovice && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpNovice.dir/src/OpNoviceStackingAction.cc.o -c /home/shuojia/geant4/example/optical/optical9.20/OpNovice/src/OpNoviceStackingAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuojia/geant4/example/git/shuo/optical9.20/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceStackingAction.cc.o"
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build/OpNovice && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpNovice.dir/src/OpNoviceStackingAction.cc.o -c /home/shuojia/geant4/example/git/shuo/optical9.20/OpNovice/src/OpNoviceStackingAction.cc
 
 OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceStackingAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpNovice.dir/src/OpNoviceStackingAction.cc.i"
-	cd /home/shuojia/geant4/example/optical/optical9.20/build/OpNovice && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shuojia/geant4/example/optical/optical9.20/OpNovice/src/OpNoviceStackingAction.cc > CMakeFiles/OpNovice.dir/src/OpNoviceStackingAction.cc.i
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build/OpNovice && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shuojia/geant4/example/git/shuo/optical9.20/OpNovice/src/OpNoviceStackingAction.cc > CMakeFiles/OpNovice.dir/src/OpNoviceStackingAction.cc.i
 
 OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceStackingAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpNovice.dir/src/OpNoviceStackingAction.cc.s"
-	cd /home/shuojia/geant4/example/optical/optical9.20/build/OpNovice && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shuojia/geant4/example/optical/optical9.20/OpNovice/src/OpNoviceStackingAction.cc -o CMakeFiles/OpNovice.dir/src/OpNoviceStackingAction.cc.s
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build/OpNovice && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shuojia/geant4/example/git/shuo/optical9.20/OpNovice/src/OpNoviceStackingAction.cc -o CMakeFiles/OpNovice.dir/src/OpNoviceStackingAction.cc.s
 
 OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceStackingAction.cc.o.requires:
 
@@ -347,16 +347,16 @@ OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceStackingAction.cc.o.provides.build:
 
 OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceSteppingAction.cc.o: OpNovice/CMakeFiles/OpNovice.dir/flags.make
 OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceSteppingAction.cc.o: ../OpNovice/src/OpNoviceSteppingAction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuojia/geant4/example/optical/optical9.20/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceSteppingAction.cc.o"
-	cd /home/shuojia/geant4/example/optical/optical9.20/build/OpNovice && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpNovice.dir/src/OpNoviceSteppingAction.cc.o -c /home/shuojia/geant4/example/optical/optical9.20/OpNovice/src/OpNoviceSteppingAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuojia/geant4/example/git/shuo/optical9.20/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceSteppingAction.cc.o"
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build/OpNovice && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpNovice.dir/src/OpNoviceSteppingAction.cc.o -c /home/shuojia/geant4/example/git/shuo/optical9.20/OpNovice/src/OpNoviceSteppingAction.cc
 
 OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceSteppingAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpNovice.dir/src/OpNoviceSteppingAction.cc.i"
-	cd /home/shuojia/geant4/example/optical/optical9.20/build/OpNovice && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shuojia/geant4/example/optical/optical9.20/OpNovice/src/OpNoviceSteppingAction.cc > CMakeFiles/OpNovice.dir/src/OpNoviceSteppingAction.cc.i
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build/OpNovice && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shuojia/geant4/example/git/shuo/optical9.20/OpNovice/src/OpNoviceSteppingAction.cc > CMakeFiles/OpNovice.dir/src/OpNoviceSteppingAction.cc.i
 
 OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceSteppingAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpNovice.dir/src/OpNoviceSteppingAction.cc.s"
-	cd /home/shuojia/geant4/example/optical/optical9.20/build/OpNovice && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shuojia/geant4/example/optical/optical9.20/OpNovice/src/OpNoviceSteppingAction.cc -o CMakeFiles/OpNovice.dir/src/OpNoviceSteppingAction.cc.s
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build/OpNovice && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shuojia/geant4/example/git/shuo/optical9.20/OpNovice/src/OpNoviceSteppingAction.cc -o CMakeFiles/OpNovice.dir/src/OpNoviceSteppingAction.cc.s
 
 OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceSteppingAction.cc.o.requires:
 
@@ -371,16 +371,16 @@ OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceSteppingAction.cc.o.provides.build:
 
 OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceSteppingVerbose.cc.o: OpNovice/CMakeFiles/OpNovice.dir/flags.make
 OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceSteppingVerbose.cc.o: ../OpNovice/src/OpNoviceSteppingVerbose.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuojia/geant4/example/optical/optical9.20/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceSteppingVerbose.cc.o"
-	cd /home/shuojia/geant4/example/optical/optical9.20/build/OpNovice && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpNovice.dir/src/OpNoviceSteppingVerbose.cc.o -c /home/shuojia/geant4/example/optical/optical9.20/OpNovice/src/OpNoviceSteppingVerbose.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuojia/geant4/example/git/shuo/optical9.20/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceSteppingVerbose.cc.o"
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build/OpNovice && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpNovice.dir/src/OpNoviceSteppingVerbose.cc.o -c /home/shuojia/geant4/example/git/shuo/optical9.20/OpNovice/src/OpNoviceSteppingVerbose.cc
 
 OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceSteppingVerbose.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpNovice.dir/src/OpNoviceSteppingVerbose.cc.i"
-	cd /home/shuojia/geant4/example/optical/optical9.20/build/OpNovice && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shuojia/geant4/example/optical/optical9.20/OpNovice/src/OpNoviceSteppingVerbose.cc > CMakeFiles/OpNovice.dir/src/OpNoviceSteppingVerbose.cc.i
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build/OpNovice && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shuojia/geant4/example/git/shuo/optical9.20/OpNovice/src/OpNoviceSteppingVerbose.cc > CMakeFiles/OpNovice.dir/src/OpNoviceSteppingVerbose.cc.i
 
 OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceSteppingVerbose.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpNovice.dir/src/OpNoviceSteppingVerbose.cc.s"
-	cd /home/shuojia/geant4/example/optical/optical9.20/build/OpNovice && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shuojia/geant4/example/optical/optical9.20/OpNovice/src/OpNoviceSteppingVerbose.cc -o CMakeFiles/OpNovice.dir/src/OpNoviceSteppingVerbose.cc.s
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build/OpNovice && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shuojia/geant4/example/git/shuo/optical9.20/OpNovice/src/OpNoviceSteppingVerbose.cc -o CMakeFiles/OpNovice.dir/src/OpNoviceSteppingVerbose.cc.s
 
 OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceSteppingVerbose.cc.o.requires:
 
@@ -467,8 +467,8 @@ OpNovice/OpNovice: /home/shuojia/geant4/G4build/BuildProducts/lib/libG4intercoms
 OpNovice/OpNovice: /home/shuojia/geant4/G4build/BuildProducts/lib/libG4global.so
 OpNovice/OpNovice: /home/shuojia/geant4/G4build/BuildProducts/lib/libG4clhep.so
 OpNovice/OpNovice: OpNovice/CMakeFiles/OpNovice.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/shuojia/geant4/example/optical/optical9.20/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable OpNovice"
-	cd /home/shuojia/geant4/example/optical/optical9.20/build/OpNovice && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/OpNovice.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/shuojia/geant4/example/git/shuo/optical9.20/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable OpNovice"
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build/OpNovice && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/OpNovice.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 OpNovice/CMakeFiles/OpNovice.dir/build: OpNovice/OpNovice
@@ -493,10 +493,10 @@ OpNovice/CMakeFiles/OpNovice.dir/requires: OpNovice/CMakeFiles/OpNovice.dir/src/
 .PHONY : OpNovice/CMakeFiles/OpNovice.dir/requires
 
 OpNovice/CMakeFiles/OpNovice.dir/clean:
-	cd /home/shuojia/geant4/example/optical/optical9.20/build/OpNovice && $(CMAKE_COMMAND) -P CMakeFiles/OpNovice.dir/cmake_clean.cmake
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build/OpNovice && $(CMAKE_COMMAND) -P CMakeFiles/OpNovice.dir/cmake_clean.cmake
 .PHONY : OpNovice/CMakeFiles/OpNovice.dir/clean
 
 OpNovice/CMakeFiles/OpNovice.dir/depend:
-	cd /home/shuojia/geant4/example/optical/optical9.20/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/shuojia/geant4/example/optical/optical9.20 /home/shuojia/geant4/example/optical/optical9.20/OpNovice /home/shuojia/geant4/example/optical/optical9.20/build /home/shuojia/geant4/example/optical/optical9.20/build/OpNovice /home/shuojia/geant4/example/optical/optical9.20/build/OpNovice/CMakeFiles/OpNovice.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/shuojia/geant4/example/git/shuo/optical9.20 /home/shuojia/geant4/example/git/shuo/optical9.20/OpNovice /home/shuojia/geant4/example/git/shuo/optical9.20/build /home/shuojia/geant4/example/git/shuo/optical9.20/build/OpNovice /home/shuojia/geant4/example/git/shuo/optical9.20/build/OpNovice/CMakeFiles/OpNovice.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : OpNovice/CMakeFiles/OpNovice.dir/depend
 

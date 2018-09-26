@@ -1,4 +1,4 @@
-# Install script for directory: /home/shuojia/geant4/example/optical/optical9.20/OpNovice
+# Install script for directory: /home/shuojia/geant4/example/git/shuo/optical9.20/OpNovice
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,7 +44,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/OpNovice"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/shuojia/geant4/example/optical/optical9.20/build/OpNovice/OpNovice")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/shuojia/geant4/example/git/shuo/optical9.20/build/OpNovice/OpNovice")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/OpNovice" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/OpNovice")
     file(RPATH_CHANGE

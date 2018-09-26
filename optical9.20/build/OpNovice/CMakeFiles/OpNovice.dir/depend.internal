@@ -5,7 +5,7 @@ OpNovice/CMakeFiles/OpNovice.dir/OpNovice.cc.o
  ../OpNovice/include/OpNoviceActionInitialization.hh
  ../OpNovice/include/OpNoviceDetectorConstruction.hh
  ../OpNovice/include/OpNovicePhysicsList.hh
- /home/shuojia/geant4/example/optical/optical9.20/OpNovice/OpNovice.cc
+ /home/shuojia/geant4/example/git/shuo/optical9.20/OpNovice/OpNovice.cc
  /home/shuojia/geant4/geant4.10.04.p01/source/digits_hits/digits/include/G4DCofThisEvent.hh
  /home/shuojia/geant4/geant4.10.04.p01/source/digits_hits/digits/include/G4VDigi.hh
  /home/shuojia/geant4/geant4.10.04.p01/source/digits_hits/digits/include/G4VDigiCollection.hh
@@ -369,7 +369,7 @@ OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceActionInitialization.cc.o
  ../OpNovice/include/OpNoviceStackingAction.hh
  ../OpNovice/include/OpNoviceSteppingAction.hh
  ../OpNovice/include/OpNoviceSteppingVerbose.hh
- /home/shuojia/geant4/example/optical/optical9.20/OpNovice/src/OpNoviceActionInitialization.cc
+ /home/shuojia/geant4/example/git/shuo/optical9.20/OpNovice/src/OpNoviceActionInitialization.cc
  /home/shuojia/geant4/geant4.10.04.p01/source/digits_hits/hits/include/G4THitsCollection.hh
  /home/shuojia/geant4/geant4.10.04.p01/source/digits_hits/hits/include/G4VHit.hh
  /home/shuojia/geant4/geant4.10.04.p01/source/digits_hits/hits/include/G4VHitsCollection.hh
@@ -554,7 +554,7 @@ OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceDetectorConstruction.cc.o
  ../OpNovice/include/OpNoviceDetectorConstruction.hh
  ../OpNovice/include/OpNoviceHit.hh
  ../OpNovice/include/OpNoviceSD.hh
- /home/shuojia/geant4/example/optical/optical9.20/OpNovice/src/OpNoviceDetectorConstruction.cc
+ /home/shuojia/geant4/example/git/shuo/optical9.20/OpNovice/src/OpNoviceDetectorConstruction.cc
  /home/shuojia/geant4/geant4.10.04.p01/source/digits_hits/detector/include/G4CollectionNameVector.hh
  /home/shuojia/geant4/geant4.10.04.p01/source/digits_hits/detector/include/G4HCtable.hh
  /home/shuojia/geant4/geant4.10.04.p01/source/digits_hits/detector/include/G4SDManager.hh
@@ -719,7 +719,7 @@ OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceEventAction.cc.o
  ../OpNovice/include/OpNoviceEventAction.hh
  ../OpNovice/include/OpNoviceHit.hh
  ../OpNovice/include/OpNoviceSD.hh
- /home/shuojia/geant4/example/optical/optical9.20/OpNovice/src/OpNoviceEventAction.cc
+ /home/shuojia/geant4/example/git/shuo/optical9.20/OpNovice/src/OpNoviceEventAction.cc
  /home/shuojia/geant4/geant4.10.04.p01/source/analysis/g4tools/include/tools/S_STRING
  /home/shuojia/geant4/geant4.10.04.p01/source/analysis/g4tools/include/tools/charp_out
  /home/shuojia/geant4/geant4.10.04.p01/source/analysis/g4tools/include/tools/cid
@@ -1139,7 +1139,7 @@ OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceEventAction.cc.o
  /home/shuojia/geant4/geant4.10.04.p01/source/tracking/include/G4VTrajectory.hh
 OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceHit.cc.o
  ../OpNovice/include/OpNoviceHit.hh
- /home/shuojia/geant4/example/optical/optical9.20/OpNovice/src/OpNoviceHit.cc
+ /home/shuojia/geant4/example/git/shuo/optical9.20/OpNovice/src/OpNoviceHit.cc
  /home/shuojia/geant4/geant4.10.04.p01/source/digits_hits/hits/include/G4THitsCollection.hh
  /home/shuojia/geant4/geant4.10.04.p01/source/digits_hits/hits/include/G4VHit.hh
  /home/shuojia/geant4/geant4.10.04.p01/source/digits_hits/hits/include/G4VHitsCollection.hh
@@ -1187,7 +1187,7 @@ OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceHit.cc.o
 OpNovice/CMakeFiles/OpNovice.dir/src/OpNovicePhysicsList.cc.o
  ../OpNovice/include/OpNovicePhysicsList.hh
  ../OpNovice/include/OpNovicePhysicsListMessenger.hh
- /home/shuojia/geant4/example/optical/optical9.20/OpNovice/src/OpNovicePhysicsList.cc
+ /home/shuojia/geant4/example/git/shuo/optical9.20/OpNovice/src/OpNovicePhysicsList.cc
  /home/shuojia/geant4/geant4.10.04.p01/source/externals/clhep/include/CLHEP/Geometry/BasicVector3D.h
  /home/shuojia/geant4/geant4.10.04.p01/source/externals/clhep/include/CLHEP/Geometry/Normal3D.h
  /home/shuojia/geant4/geant4.10.04.p01/source/externals/clhep/include/CLHEP/Geometry/Point3D.h
@@ -1609,7 +1609,7 @@ OpNovice/CMakeFiles/OpNovice.dir/src/OpNovicePhysicsList.cc.o
 OpNovice/CMakeFiles/OpNovice.dir/src/OpNovicePhysicsListMessenger.cc.o
  ../OpNovice/include/OpNovicePhysicsList.hh
  ../OpNovice/include/OpNovicePhysicsListMessenger.hh
- /home/shuojia/geant4/example/optical/optical9.20/OpNovice/src/OpNovicePhysicsListMessenger.cc
+ /home/shuojia/geant4/example/git/shuo/optical9.20/OpNovice/src/OpNovicePhysicsListMessenger.cc
  /home/shuojia/geant4/geant4.10.04.p01/source/externals/clhep/include/CLHEP/Units/PhysicalConstants.h
  /home/shuojia/geant4/geant4.10.04.p01/source/externals/clhep/include/CLHEP/Units/SystemOfUnits.h
  /home/shuojia/geant4/geant4.10.04.p01/source/externals/clhep/include/CLHEP/Utility/defs.h
@@ -1655,7 +1655,7 @@ OpNovice/CMakeFiles/OpNovice.dir/src/OpNovicePhysicsListMessenger.cc.o
 OpNovice/CMakeFiles/OpNovice.dir/src/OpNovicePrimaryGeneratorAction.cc.o
  ../OpNovice/include/OpNovicePrimaryGeneratorAction.hh
  ../OpNovice/include/OpNovicePrimaryGeneratorMessenger.hh
- /home/shuojia/geant4/example/optical/optical9.20/OpNovice/src/OpNovicePrimaryGeneratorAction.cc
+ /home/shuojia/geant4/example/git/shuo/optical9.20/OpNovice/src/OpNovicePrimaryGeneratorAction.cc
  /home/shuojia/geant4/geant4.10.04.p01/source/digits_hits/digits/include/G4DCofThisEvent.hh
  /home/shuojia/geant4/geant4.10.04.p01/source/digits_hits/digits/include/G4VDigiCollection.hh
  /home/shuojia/geant4/geant4.10.04.p01/source/digits_hits/hits/include/G4HCofThisEvent.hh
@@ -1769,7 +1769,7 @@ OpNovice/CMakeFiles/OpNovice.dir/src/OpNovicePrimaryGeneratorAction.cc.o
 OpNovice/CMakeFiles/OpNovice.dir/src/OpNovicePrimaryGeneratorMessenger.cc.o
  ../OpNovice/include/OpNovicePrimaryGeneratorAction.hh
  ../OpNovice/include/OpNovicePrimaryGeneratorMessenger.hh
- /home/shuojia/geant4/example/optical/optical9.20/OpNovice/src/OpNovicePrimaryGeneratorMessenger.cc
+ /home/shuojia/geant4/example/git/shuo/optical9.20/OpNovice/src/OpNovicePrimaryGeneratorMessenger.cc
  /home/shuojia/geant4/geant4.10.04.p01/source/externals/clhep/include/CLHEP/Units/SystemOfUnits.h
  /home/shuojia/geant4/geant4.10.04.p01/source/externals/clhep/include/CLHEP/Utility/defs.h
  /home/shuojia/geant4/geant4.10.04.p01/source/externals/clhep/include/CLHEP/Vector/ThreeVector.h
@@ -1797,7 +1797,7 @@ OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceRunAction.cc.o
  ../OpNovice/include/OpNoviceHit.hh
  ../OpNovice/include/OpNoviceRunAction.hh
  ../OpNovice/include/OpNoviceSD.hh
- /home/shuojia/geant4/example/optical/optical9.20/OpNovice/src/OpNoviceRunAction.cc
+ /home/shuojia/geant4/example/git/shuo/optical9.20/OpNovice/src/OpNoviceRunAction.cc
  /home/shuojia/geant4/geant4.10.04.p01/source/analysis/g4tools/include/tools/S_STRING
  /home/shuojia/geant4/geant4.10.04.p01/source/analysis/g4tools/include/tools/charp_out
  /home/shuojia/geant4/geant4.10.04.p01/source/analysis/g4tools/include/tools/cid
@@ -2222,7 +2222,7 @@ OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceRunAction.cc.o
 OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceSD.cc.o
  ../OpNovice/include/OpNoviceHit.hh
  ../OpNovice/include/OpNoviceSD.hh
- /home/shuojia/geant4/example/optical/optical9.20/OpNovice/src/OpNoviceSD.cc
+ /home/shuojia/geant4/example/git/shuo/optical9.20/OpNovice/src/OpNoviceSD.cc
  /home/shuojia/geant4/geant4.10.04.p01/source/analysis/g4tools/include/tools/S_STRING
  /home/shuojia/geant4/geant4.10.04.p01/source/analysis/g4tools/include/tools/charp_out
  /home/shuojia/geant4/geant4.10.04.p01/source/analysis/g4tools/include/tools/cid
@@ -2497,7 +2497,7 @@ OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceSD.cc.o
  /home/shuojia/geant4/geant4.10.04.p01/source/track/include/trkdefs.hh
 OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceStackingAction.cc.o
  ../OpNovice/include/OpNoviceStackingAction.hh
- /home/shuojia/geant4/example/optical/optical9.20/OpNovice/src/OpNoviceStackingAction.cc
+ /home/shuojia/geant4/example/git/shuo/optical9.20/OpNovice/src/OpNoviceStackingAction.cc
  /home/shuojia/geant4/geant4.10.04.p01/source/event/include/G4ClassificationOfNewTrack.hh
  /home/shuojia/geant4/geant4.10.04.p01/source/event/include/G4UserStackingAction.hh
  /home/shuojia/geant4/geant4.10.04.p01/source/externals/clhep/include/CLHEP/Random/DualRand.h
@@ -2768,7 +2768,7 @@ OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceStackingAction.cc.o
  /home/shuojia/geant4/geant4.10.04.p01/source/track/include/trkdefs.hh
 OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceSteppingAction.cc.o
  ../OpNovice/include/OpNoviceSteppingAction.hh
- /home/shuojia/geant4/example/optical/optical9.20/OpNovice/src/OpNoviceSteppingAction.cc
+ /home/shuojia/geant4/example/git/shuo/optical9.20/OpNovice/src/OpNoviceSteppingAction.cc
  /home/shuojia/geant4/geant4.10.04.p01/source/digits_hits/digits/include/G4DCofThisEvent.hh
  /home/shuojia/geant4/geant4.10.04.p01/source/digits_hits/digits/include/G4VDigiCollection.hh
  /home/shuojia/geant4/geant4.10.04.p01/source/digits_hits/hits/include/G4HCofThisEvent.hh
@@ -3029,7 +3029,7 @@ OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceSteppingAction.cc.o
  /home/shuojia/geant4/geant4.10.04.p01/source/tracking/include/G4VTrajectory.hh
 OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceSteppingVerbose.cc.o
  ../OpNovice/include/OpNoviceSteppingVerbose.hh
- /home/shuojia/geant4/example/optical/optical9.20/OpNovice/src/OpNoviceSteppingVerbose.cc
+ /home/shuojia/geant4/example/git/shuo/optical9.20/OpNovice/src/OpNoviceSteppingVerbose.cc
  /home/shuojia/geant4/geant4.10.04.p01/source/externals/clhep/include/CLHEP/Geometry/BasicVector3D.h
  /home/shuojia/geant4/geant4.10.04.p01/source/externals/clhep/include/CLHEP/Geometry/Normal3D.h
  /home/shuojia/geant4/geant4.10.04.p01/source/externals/clhep/include/CLHEP/Geometry/Point3D.h

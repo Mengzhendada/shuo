@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/shuojia/geant4/example/optical/optical9.20
+CMAKE_SOURCE_DIR = /home/shuojia/geant4/example/git/shuo/optical9.20
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/shuojia/geant4/example/optical/optical9.20/build
+CMAKE_BINARY_DIR = /home/shuojia/geant4/example/git/shuo/optical9.20/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/shuojia/geant4/example/optical/optical9.20/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/shuojia/geant4/example/optical/optical9.20/build/CMakeFiles /home/shuojia/geant4/example/optical/optical9.20/build/OpNovice/CMakeFiles/progress.marks
-	cd /home/shuojia/geant4/example/optical/optical9.20/build && $(MAKE) -f CMakeFiles/Makefile2 OpNovice/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/shuojia/geant4/example/optical/optical9.20/build/CMakeFiles 0
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/shuojia/geant4/example/git/shuo/optical9.20/build/CMakeFiles /home/shuojia/geant4/example/git/shuo/optical9.20/build/OpNovice/CMakeFiles/progress.marks
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build && $(MAKE) -f CMakeFiles/Makefile2 OpNovice/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shuojia/geant4/example/git/shuo/optical9.20/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/shuojia/geant4/example/optical/optical9.20/build && $(MAKE) -f CMakeFiles/Makefile2 OpNovice/clean
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build && $(MAKE) -f CMakeFiles/Makefile2 OpNovice/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/shuojia/geant4/example/optical/optical9.20/build && $(MAKE) -f CMakeFiles/Makefile2 OpNovice/preinstall
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build && $(MAKE) -f CMakeFiles/Makefile2 OpNovice/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/shuojia/geant4/example/optical/optical9.20/build && $(MAKE) -f CMakeFiles/Makefile2 OpNovice/preinstall
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build && $(MAKE) -f CMakeFiles/Makefile2 OpNovice/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/shuojia/geant4/example/optical/optical9.20/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 OpNovice/CMakeFiles/OpNovice.dir/rule:
-	cd /home/shuojia/geant4/example/optical/optical9.20/build && $(MAKE) -f CMakeFiles/Makefile2 OpNovice/CMakeFiles/OpNovice.dir/rule
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build && $(MAKE) -f CMakeFiles/Makefile2 OpNovice/CMakeFiles/OpNovice.dir/rule
 .PHONY : OpNovice/CMakeFiles/OpNovice.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ OpNovice: OpNovice/CMakeFiles/OpNovice.dir/rule
 
 # fast build rule for target.
 OpNovice/fast:
-	cd /home/shuojia/geant4/example/optical/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/build
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/build
 .PHONY : OpNovice/fast
 
 OpNovice.o: OpNovice.cc.o
@@ -177,7 +177,7 @@ OpNovice.o: OpNovice.cc.o
 
 # target to build an object file
 OpNovice.cc.o:
-	cd /home/shuojia/geant4/example/optical/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/OpNovice.cc.o
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/OpNovice.cc.o
 .PHONY : OpNovice.cc.o
 
 OpNovice.i: OpNovice.cc.i
@@ -186,7 +186,7 @@ OpNovice.i: OpNovice.cc.i
 
 # target to preprocess a source file
 OpNovice.cc.i:
-	cd /home/shuojia/geant4/example/optical/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/OpNovice.cc.i
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/OpNovice.cc.i
 .PHONY : OpNovice.cc.i
 
 OpNovice.s: OpNovice.cc.s
@@ -195,7 +195,7 @@ OpNovice.s: OpNovice.cc.s
 
 # target to generate assembly for a file
 OpNovice.cc.s:
-	cd /home/shuojia/geant4/example/optical/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/OpNovice.cc.s
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/OpNovice.cc.s
 .PHONY : OpNovice.cc.s
 
 src/OpNoviceActionInitialization.o: src/OpNoviceActionInitialization.cc.o
@@ -204,7 +204,7 @@ src/OpNoviceActionInitialization.o: src/OpNoviceActionInitialization.cc.o
 
 # target to build an object file
 src/OpNoviceActionInitialization.cc.o:
-	cd /home/shuojia/geant4/example/optical/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceActionInitialization.cc.o
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceActionInitialization.cc.o
 .PHONY : src/OpNoviceActionInitialization.cc.o
 
 src/OpNoviceActionInitialization.i: src/OpNoviceActionInitialization.cc.i
@@ -213,7 +213,7 @@ src/OpNoviceActionInitialization.i: src/OpNoviceActionInitialization.cc.i
 
 # target to preprocess a source file
 src/OpNoviceActionInitialization.cc.i:
-	cd /home/shuojia/geant4/example/optical/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceActionInitialization.cc.i
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceActionInitialization.cc.i
 .PHONY : src/OpNoviceActionInitialization.cc.i
 
 src/OpNoviceActionInitialization.s: src/OpNoviceActionInitialization.cc.s
@@ -222,7 +222,7 @@ src/OpNoviceActionInitialization.s: src/OpNoviceActionInitialization.cc.s
 
 # target to generate assembly for a file
 src/OpNoviceActionInitialization.cc.s:
-	cd /home/shuojia/geant4/example/optical/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceActionInitialization.cc.s
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceActionInitialization.cc.s
 .PHONY : src/OpNoviceActionInitialization.cc.s
 
 src/OpNoviceDetectorConstruction.o: src/OpNoviceDetectorConstruction.cc.o
@@ -231,7 +231,7 @@ src/OpNoviceDetectorConstruction.o: src/OpNoviceDetectorConstruction.cc.o
 
 # target to build an object file
 src/OpNoviceDetectorConstruction.cc.o:
-	cd /home/shuojia/geant4/example/optical/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceDetectorConstruction.cc.o
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceDetectorConstruction.cc.o
 .PHONY : src/OpNoviceDetectorConstruction.cc.o
 
 src/OpNoviceDetectorConstruction.i: src/OpNoviceDetectorConstruction.cc.i
@@ -240,7 +240,7 @@ src/OpNoviceDetectorConstruction.i: src/OpNoviceDetectorConstruction.cc.i
 
 # target to preprocess a source file
 src/OpNoviceDetectorConstruction.cc.i:
-	cd /home/shuojia/geant4/example/optical/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceDetectorConstruction.cc.i
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceDetectorConstruction.cc.i
 .PHONY : src/OpNoviceDetectorConstruction.cc.i
 
 src/OpNoviceDetectorConstruction.s: src/OpNoviceDetectorConstruction.cc.s
@@ -249,7 +249,7 @@ src/OpNoviceDetectorConstruction.s: src/OpNoviceDetectorConstruction.cc.s
 
 # target to generate assembly for a file
 src/OpNoviceDetectorConstruction.cc.s:
-	cd /home/shuojia/geant4/example/optical/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceDetectorConstruction.cc.s
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceDetectorConstruction.cc.s
 .PHONY : src/OpNoviceDetectorConstruction.cc.s
 
 src/OpNoviceEventAction.o: src/OpNoviceEventAction.cc.o
@@ -258,7 +258,7 @@ src/OpNoviceEventAction.o: src/OpNoviceEventAction.cc.o
 
 # target to build an object file
 src/OpNoviceEventAction.cc.o:
-	cd /home/shuojia/geant4/example/optical/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceEventAction.cc.o
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceEventAction.cc.o
 .PHONY : src/OpNoviceEventAction.cc.o
 
 src/OpNoviceEventAction.i: src/OpNoviceEventAction.cc.i
@@ -267,7 +267,7 @@ src/OpNoviceEventAction.i: src/OpNoviceEventAction.cc.i
 
 # target to preprocess a source file
 src/OpNoviceEventAction.cc.i:
-	cd /home/shuojia/geant4/example/optical/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceEventAction.cc.i
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceEventAction.cc.i
 .PHONY : src/OpNoviceEventAction.cc.i
 
 src/OpNoviceEventAction.s: src/OpNoviceEventAction.cc.s
@@ -276,7 +276,7 @@ src/OpNoviceEventAction.s: src/OpNoviceEventAction.cc.s
 
 # target to generate assembly for a file
 src/OpNoviceEventAction.cc.s:
-	cd /home/shuojia/geant4/example/optical/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceEventAction.cc.s
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceEventAction.cc.s
 .PHONY : src/OpNoviceEventAction.cc.s
 
 src/OpNoviceHit.o: src/OpNoviceHit.cc.o
@@ -285,7 +285,7 @@ src/OpNoviceHit.o: src/OpNoviceHit.cc.o
 
 # target to build an object file
 src/OpNoviceHit.cc.o:
-	cd /home/shuojia/geant4/example/optical/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceHit.cc.o
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceHit.cc.o
 .PHONY : src/OpNoviceHit.cc.o
 
 src/OpNoviceHit.i: src/OpNoviceHit.cc.i
@@ -294,7 +294,7 @@ src/OpNoviceHit.i: src/OpNoviceHit.cc.i
 
 # target to preprocess a source file
 src/OpNoviceHit.cc.i:
-	cd /home/shuojia/geant4/example/optical/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceHit.cc.i
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceHit.cc.i
 .PHONY : src/OpNoviceHit.cc.i
 
 src/OpNoviceHit.s: src/OpNoviceHit.cc.s
@@ -303,7 +303,7 @@ src/OpNoviceHit.s: src/OpNoviceHit.cc.s
 
 # target to generate assembly for a file
 src/OpNoviceHit.cc.s:
-	cd /home/shuojia/geant4/example/optical/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceHit.cc.s
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceHit.cc.s
 .PHONY : src/OpNoviceHit.cc.s
 
 src/OpNovicePhysicsList.o: src/OpNovicePhysicsList.cc.o
@@ -312,7 +312,7 @@ src/OpNovicePhysicsList.o: src/OpNovicePhysicsList.cc.o
 
 # target to build an object file
 src/OpNovicePhysicsList.cc.o:
-	cd /home/shuojia/geant4/example/optical/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/src/OpNovicePhysicsList.cc.o
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/src/OpNovicePhysicsList.cc.o
 .PHONY : src/OpNovicePhysicsList.cc.o
 
 src/OpNovicePhysicsList.i: src/OpNovicePhysicsList.cc.i
@@ -321,7 +321,7 @@ src/OpNovicePhysicsList.i: src/OpNovicePhysicsList.cc.i
 
 # target to preprocess a source file
 src/OpNovicePhysicsList.cc.i:
-	cd /home/shuojia/geant4/example/optical/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/src/OpNovicePhysicsList.cc.i
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/src/OpNovicePhysicsList.cc.i
 .PHONY : src/OpNovicePhysicsList.cc.i
 
 src/OpNovicePhysicsList.s: src/OpNovicePhysicsList.cc.s
@@ -330,7 +330,7 @@ src/OpNovicePhysicsList.s: src/OpNovicePhysicsList.cc.s
 
 # target to generate assembly for a file
 src/OpNovicePhysicsList.cc.s:
-	cd /home/shuojia/geant4/example/optical/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/src/OpNovicePhysicsList.cc.s
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/src/OpNovicePhysicsList.cc.s
 .PHONY : src/OpNovicePhysicsList.cc.s
 
 src/OpNovicePhysicsListMessenger.o: src/OpNovicePhysicsListMessenger.cc.o
@@ -339,7 +339,7 @@ src/OpNovicePhysicsListMessenger.o: src/OpNovicePhysicsListMessenger.cc.o
 
 # target to build an object file
 src/OpNovicePhysicsListMessenger.cc.o:
-	cd /home/shuojia/geant4/example/optical/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/src/OpNovicePhysicsListMessenger.cc.o
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/src/OpNovicePhysicsListMessenger.cc.o
 .PHONY : src/OpNovicePhysicsListMessenger.cc.o
 
 src/OpNovicePhysicsListMessenger.i: src/OpNovicePhysicsListMessenger.cc.i
@@ -348,7 +348,7 @@ src/OpNovicePhysicsListMessenger.i: src/OpNovicePhysicsListMessenger.cc.i
 
 # target to preprocess a source file
 src/OpNovicePhysicsListMessenger.cc.i:
-	cd /home/shuojia/geant4/example/optical/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/src/OpNovicePhysicsListMessenger.cc.i
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/src/OpNovicePhysicsListMessenger.cc.i
 .PHONY : src/OpNovicePhysicsListMessenger.cc.i
 
 src/OpNovicePhysicsListMessenger.s: src/OpNovicePhysicsListMessenger.cc.s
@@ -357,7 +357,7 @@ src/OpNovicePhysicsListMessenger.s: src/OpNovicePhysicsListMessenger.cc.s
 
 # target to generate assembly for a file
 src/OpNovicePhysicsListMessenger.cc.s:
-	cd /home/shuojia/geant4/example/optical/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/src/OpNovicePhysicsListMessenger.cc.s
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/src/OpNovicePhysicsListMessenger.cc.s
 .PHONY : src/OpNovicePhysicsListMessenger.cc.s
 
 src/OpNovicePrimaryGeneratorAction.o: src/OpNovicePrimaryGeneratorAction.cc.o
@@ -366,7 +366,7 @@ src/OpNovicePrimaryGeneratorAction.o: src/OpNovicePrimaryGeneratorAction.cc.o
 
 # target to build an object file
 src/OpNovicePrimaryGeneratorAction.cc.o:
-	cd /home/shuojia/geant4/example/optical/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/src/OpNovicePrimaryGeneratorAction.cc.o
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/src/OpNovicePrimaryGeneratorAction.cc.o
 .PHONY : src/OpNovicePrimaryGeneratorAction.cc.o
 
 src/OpNovicePrimaryGeneratorAction.i: src/OpNovicePrimaryGeneratorAction.cc.i
@@ -375,7 +375,7 @@ src/OpNovicePrimaryGeneratorAction.i: src/OpNovicePrimaryGeneratorAction.cc.i
 
 # target to preprocess a source file
 src/OpNovicePrimaryGeneratorAction.cc.i:
-	cd /home/shuojia/geant4/example/optical/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/src/OpNovicePrimaryGeneratorAction.cc.i
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/src/OpNovicePrimaryGeneratorAction.cc.i
 .PHONY : src/OpNovicePrimaryGeneratorAction.cc.i
 
 src/OpNovicePrimaryGeneratorAction.s: src/OpNovicePrimaryGeneratorAction.cc.s
@@ -384,7 +384,7 @@ src/OpNovicePrimaryGeneratorAction.s: src/OpNovicePrimaryGeneratorAction.cc.s
 
 # target to generate assembly for a file
 src/OpNovicePrimaryGeneratorAction.cc.s:
-	cd /home/shuojia/geant4/example/optical/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/src/OpNovicePrimaryGeneratorAction.cc.s
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/src/OpNovicePrimaryGeneratorAction.cc.s
 .PHONY : src/OpNovicePrimaryGeneratorAction.cc.s
 
 src/OpNovicePrimaryGeneratorMessenger.o: src/OpNovicePrimaryGeneratorMessenger.cc.o
@@ -393,7 +393,7 @@ src/OpNovicePrimaryGeneratorMessenger.o: src/OpNovicePrimaryGeneratorMessenger.c
 
 # target to build an object file
 src/OpNovicePrimaryGeneratorMessenger.cc.o:
-	cd /home/shuojia/geant4/example/optical/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/src/OpNovicePrimaryGeneratorMessenger.cc.o
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/src/OpNovicePrimaryGeneratorMessenger.cc.o
 .PHONY : src/OpNovicePrimaryGeneratorMessenger.cc.o
 
 src/OpNovicePrimaryGeneratorMessenger.i: src/OpNovicePrimaryGeneratorMessenger.cc.i
@@ -402,7 +402,7 @@ src/OpNovicePrimaryGeneratorMessenger.i: src/OpNovicePrimaryGeneratorMessenger.c
 
 # target to preprocess a source file
 src/OpNovicePrimaryGeneratorMessenger.cc.i:
-	cd /home/shuojia/geant4/example/optical/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/src/OpNovicePrimaryGeneratorMessenger.cc.i
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/src/OpNovicePrimaryGeneratorMessenger.cc.i
 .PHONY : src/OpNovicePrimaryGeneratorMessenger.cc.i
 
 src/OpNovicePrimaryGeneratorMessenger.s: src/OpNovicePrimaryGeneratorMessenger.cc.s
@@ -411,7 +411,7 @@ src/OpNovicePrimaryGeneratorMessenger.s: src/OpNovicePrimaryGeneratorMessenger.c
 
 # target to generate assembly for a file
 src/OpNovicePrimaryGeneratorMessenger.cc.s:
-	cd /home/shuojia/geant4/example/optical/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/src/OpNovicePrimaryGeneratorMessenger.cc.s
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/src/OpNovicePrimaryGeneratorMessenger.cc.s
 .PHONY : src/OpNovicePrimaryGeneratorMessenger.cc.s
 
 src/OpNoviceRunAction.o: src/OpNoviceRunAction.cc.o
@@ -420,7 +420,7 @@ src/OpNoviceRunAction.o: src/OpNoviceRunAction.cc.o
 
 # target to build an object file
 src/OpNoviceRunAction.cc.o:
-	cd /home/shuojia/geant4/example/optical/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceRunAction.cc.o
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceRunAction.cc.o
 .PHONY : src/OpNoviceRunAction.cc.o
 
 src/OpNoviceRunAction.i: src/OpNoviceRunAction.cc.i
@@ -429,7 +429,7 @@ src/OpNoviceRunAction.i: src/OpNoviceRunAction.cc.i
 
 # target to preprocess a source file
 src/OpNoviceRunAction.cc.i:
-	cd /home/shuojia/geant4/example/optical/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceRunAction.cc.i
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceRunAction.cc.i
 .PHONY : src/OpNoviceRunAction.cc.i
 
 src/OpNoviceRunAction.s: src/OpNoviceRunAction.cc.s
@@ -438,7 +438,7 @@ src/OpNoviceRunAction.s: src/OpNoviceRunAction.cc.s
 
 # target to generate assembly for a file
 src/OpNoviceRunAction.cc.s:
-	cd /home/shuojia/geant4/example/optical/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceRunAction.cc.s
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceRunAction.cc.s
 .PHONY : src/OpNoviceRunAction.cc.s
 
 src/OpNoviceSD.o: src/OpNoviceSD.cc.o
@@ -447,7 +447,7 @@ src/OpNoviceSD.o: src/OpNoviceSD.cc.o
 
 # target to build an object file
 src/OpNoviceSD.cc.o:
-	cd /home/shuojia/geant4/example/optical/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceSD.cc.o
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceSD.cc.o
 .PHONY : src/OpNoviceSD.cc.o
 
 src/OpNoviceSD.i: src/OpNoviceSD.cc.i
@@ -456,7 +456,7 @@ src/OpNoviceSD.i: src/OpNoviceSD.cc.i
 
 # target to preprocess a source file
 src/OpNoviceSD.cc.i:
-	cd /home/shuojia/geant4/example/optical/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceSD.cc.i
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceSD.cc.i
 .PHONY : src/OpNoviceSD.cc.i
 
 src/OpNoviceSD.s: src/OpNoviceSD.cc.s
@@ -465,7 +465,7 @@ src/OpNoviceSD.s: src/OpNoviceSD.cc.s
 
 # target to generate assembly for a file
 src/OpNoviceSD.cc.s:
-	cd /home/shuojia/geant4/example/optical/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceSD.cc.s
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceSD.cc.s
 .PHONY : src/OpNoviceSD.cc.s
 
 src/OpNoviceStackingAction.o: src/OpNoviceStackingAction.cc.o
@@ -474,7 +474,7 @@ src/OpNoviceStackingAction.o: src/OpNoviceStackingAction.cc.o
 
 # target to build an object file
 src/OpNoviceStackingAction.cc.o:
-	cd /home/shuojia/geant4/example/optical/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceStackingAction.cc.o
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceStackingAction.cc.o
 .PHONY : src/OpNoviceStackingAction.cc.o
 
 src/OpNoviceStackingAction.i: src/OpNoviceStackingAction.cc.i
@@ -483,7 +483,7 @@ src/OpNoviceStackingAction.i: src/OpNoviceStackingAction.cc.i
 
 # target to preprocess a source file
 src/OpNoviceStackingAction.cc.i:
-	cd /home/shuojia/geant4/example/optical/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceStackingAction.cc.i
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceStackingAction.cc.i
 .PHONY : src/OpNoviceStackingAction.cc.i
 
 src/OpNoviceStackingAction.s: src/OpNoviceStackingAction.cc.s
@@ -492,7 +492,7 @@ src/OpNoviceStackingAction.s: src/OpNoviceStackingAction.cc.s
 
 # target to generate assembly for a file
 src/OpNoviceStackingAction.cc.s:
-	cd /home/shuojia/geant4/example/optical/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceStackingAction.cc.s
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceStackingAction.cc.s
 .PHONY : src/OpNoviceStackingAction.cc.s
 
 src/OpNoviceSteppingAction.o: src/OpNoviceSteppingAction.cc.o
@@ -501,7 +501,7 @@ src/OpNoviceSteppingAction.o: src/OpNoviceSteppingAction.cc.o
 
 # target to build an object file
 src/OpNoviceSteppingAction.cc.o:
-	cd /home/shuojia/geant4/example/optical/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceSteppingAction.cc.o
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceSteppingAction.cc.o
 .PHONY : src/OpNoviceSteppingAction.cc.o
 
 src/OpNoviceSteppingAction.i: src/OpNoviceSteppingAction.cc.i
@@ -510,7 +510,7 @@ src/OpNoviceSteppingAction.i: src/OpNoviceSteppingAction.cc.i
 
 # target to preprocess a source file
 src/OpNoviceSteppingAction.cc.i:
-	cd /home/shuojia/geant4/example/optical/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceSteppingAction.cc.i
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceSteppingAction.cc.i
 .PHONY : src/OpNoviceSteppingAction.cc.i
 
 src/OpNoviceSteppingAction.s: src/OpNoviceSteppingAction.cc.s
@@ -519,7 +519,7 @@ src/OpNoviceSteppingAction.s: src/OpNoviceSteppingAction.cc.s
 
 # target to generate assembly for a file
 src/OpNoviceSteppingAction.cc.s:
-	cd /home/shuojia/geant4/example/optical/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceSteppingAction.cc.s
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceSteppingAction.cc.s
 .PHONY : src/OpNoviceSteppingAction.cc.s
 
 src/OpNoviceSteppingVerbose.o: src/OpNoviceSteppingVerbose.cc.o
@@ -528,7 +528,7 @@ src/OpNoviceSteppingVerbose.o: src/OpNoviceSteppingVerbose.cc.o
 
 # target to build an object file
 src/OpNoviceSteppingVerbose.cc.o:
-	cd /home/shuojia/geant4/example/optical/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceSteppingVerbose.cc.o
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceSteppingVerbose.cc.o
 .PHONY : src/OpNoviceSteppingVerbose.cc.o
 
 src/OpNoviceSteppingVerbose.i: src/OpNoviceSteppingVerbose.cc.i
@@ -537,7 +537,7 @@ src/OpNoviceSteppingVerbose.i: src/OpNoviceSteppingVerbose.cc.i
 
 # target to preprocess a source file
 src/OpNoviceSteppingVerbose.cc.i:
-	cd /home/shuojia/geant4/example/optical/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceSteppingVerbose.cc.i
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceSteppingVerbose.cc.i
 .PHONY : src/OpNoviceSteppingVerbose.cc.i
 
 src/OpNoviceSteppingVerbose.s: src/OpNoviceSteppingVerbose.cc.s
@@ -546,7 +546,7 @@ src/OpNoviceSteppingVerbose.s: src/OpNoviceSteppingVerbose.cc.s
 
 # target to generate assembly for a file
 src/OpNoviceSteppingVerbose.cc.s:
-	cd /home/shuojia/geant4/example/optical/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceSteppingVerbose.cc.s
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build && $(MAKE) -f OpNovice/CMakeFiles/OpNovice.dir/build.make OpNovice/CMakeFiles/OpNovice.dir/src/OpNoviceSteppingVerbose.cc.s
 .PHONY : src/OpNoviceSteppingVerbose.cc.s
 
 # Help Target
@@ -615,6 +615,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/shuojia/geant4/example/optical/optical9.20/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/shuojia/geant4/example/git/shuo/optical9.20/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

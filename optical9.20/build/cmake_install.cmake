@@ -1,4 +1,4 @@
-# Install script for directory: /home/shuojia/geant4/example/optical/optical9.20
+# Install script for directory: /home/shuojia/geant4/example/git/shuo/optical9.20
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,9 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/shuojia/geant4/example/optical/optical9.20/build/OpNovice/cmake_install.cmake")
-  include("/home/shuojia/geant4/example/optical/optical9.20/build/LXe/cmake_install.cmake")
-  include("/home/shuojia/geant4/example/optical/optical9.20/build/wls/cmake_install.cmake")
+  include("/home/shuojia/geant4/example/git/shuo/optical9.20/build/OpNovice/cmake_install.cmake")
 
 endif()
 
@@ -53,5 +51,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/shuojia/geant4/example/optical/optical9.20/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/shuojia/geant4/example/git/shuo/optical9.20/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
