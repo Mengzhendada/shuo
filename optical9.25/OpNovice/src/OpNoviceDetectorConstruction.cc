@@ -176,10 +176,12 @@ G4VPhysicalVolume* OpNoviceDetectorConstruction::Construct()
   //SensitiveDetector
   G4Box* SD_box = new G4Box("SD",fSD_x,fSD_y,fSD_z);
   G4LogicalVolume* SD_log = new G4LogicalVolume(SD_box,air,"SD",0,0,0);
-  G4VPysicalVolume* SD_pys=new G4PVPlacement(0,G4TreeVector(0,2*m,2*m),SD_log,"SD",nitrogentub_log,false,0);
-  auto SD = new OpNoviceSensitiveDetector("SD");
-  G4SDManager::GetSDMpointer()->AddNewDetector(SD);
-  SensitiveDetector("SD",SD);
+  G4VPhysicalVolume* SD_pys=new G4PVPlacement(0,G4ThreeVector(0,2*m,2*m),SD_log,"SD",nitrogentub_log,false,0);
+  
+  OpNoviceSensitiveDetector* SD = new OpNoviceSensitiveDetector("sensitive");
+  G4SDManager* sdman = G4SDManager::GetSDMpointer();
+  sdman->AddNewDetector(SD);
+  SD_log->SetSensitiveDetector(SD);
   
 
 

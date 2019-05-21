@@ -12,7 +12,7 @@ class OpNoviceHit : public G4VHit
 public:
   OpNoviceHit();
   ~OpNoviceHit();
-}
+};
   using OpNoviceHitsCollection = G4THitsCollection<OpNoviceHit>;
 extern G4ThreadLocal G4Allocator<OpNoviceHit>* OpNoviceHitAllocator;
 #endif

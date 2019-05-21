@@ -1,0 +1,13 @@
+/home/shuojia/Downloads/geant4.10.05/shuo/optical9.20/OpNovice/CMakeFiles/install/strip.dir
+/home/shuojia/Downloads/geant4.10.05/shuo/optical9.20/OpNovice/CMakeFiles/install.dir
+/home/shuojia/Downloads/geant4.10.05/shuo/optical9.20/OpNovice/CMakeFiles/install/local.dir
+/home/shuojia/Downloads/geant4.10.05/shuo/optical9.20/OpNovice/CMakeFiles/list_install_components.dir
+/home/shuojia/Downloads/geant4.10.05/shuo/optical9.20/OpNovice/CMakeFiles/edit_cache.dir
+/home/shuojia/Downloads/geant4.10.05/shuo/optical9.20/OpNovice/CMakeFiles/rebuild_cache.dir
+/home/shuojia/Downloads/geant4.10.05/shuo/optical9.20/OpNovice/OpNovice/CMakeFiles/install/strip.dir
+/home/shuojia/Downloads/geant4.10.05/shuo/optical9.20/OpNovice/OpNovice/CMakeFiles/edit_cache.dir
+/home/shuojia/Downloads/geant4.10.05/shuo/optical9.20/OpNovice/OpNovice/CMakeFiles/OpNovice.dir
+/home/shuojia/Downloads/geant4.10.05/shuo/optical9.20/OpNovice/OpNovice/CMakeFiles/rebuild_cache.dir
+/home/shuojia/Downloads/geant4.10.05/shuo/optical9.20/OpNovice/OpNovice/CMakeFiles/list_install_components.dir
+/home/shuojia/Downloads/geant4.10.05/shuo/optical9.20/OpNovice/OpNovice/CMakeFiles/install/local.dir
+/home/shuojia/Downloads/geant4.10.05/shuo/optical9.20/OpNovice/OpNovice/CMakeFiles/install.dir

@@ -1,0 +1,7 @@
+/home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1/build/CMakeFiles/install/strip.dir
+/home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1/build/CMakeFiles/edit_cache.dir
+/home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1/build/CMakeFiles/CherProto.dir
+/home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1/build/CMakeFiles/rebuild_cache.dir
+/home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1/build/CMakeFiles/list_install_components.dir
+/home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1/build/CMakeFiles/install/local.dir
+/home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1/build/CMakeFiles/install.dir

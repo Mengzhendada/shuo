@@ -11,10 +11,10 @@ class G4HCofThisEvent;
 class OpNoviceSensitiveDetector : public G4VSensitiveDetector
 {
 public:
-  OpNoviceSensitiveDetector(const G4String& name);
+  OpNoviceSensitiveDetector(G4String name);
   virtual ~OpNoviceSensitiveDetector();
 
-  virtual void Initialize(G4CofThisEvent* hitCollection);
+  virtual void Initialize(G4HCofThisEvent* hitCollection);
   virtual G4bool ProcessHits(G4Step* step);
   virtual void EndOfEvent(G4HCofThisEvent* hitCollection);
 
