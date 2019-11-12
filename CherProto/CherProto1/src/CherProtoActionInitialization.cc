@@ -26,6 +26,7 @@ void CherProtoActionInitialization::Build() const
   SetUserAction(new CherProtoRunAction());
   SetUserAction(new CherProtoSteppingAction());
   SetUserAction(new CherProtoStackingAction());
+G4cout<<"ActionInitialization check"<<G4endl;
 }
 
 G4VSteppingVerbose*

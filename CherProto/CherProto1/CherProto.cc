@@ -98,7 +98,7 @@ int main(int argc,char** argv)
   runManager-> SetUserInitialization(new CherProtoPhysicsList());
   // User action initialization
   runManager->SetUserInitialization(new CherProtoActionInitialization());
-
+  G4cout<<"ActionInitialization check 1"<<G4endl;
   // Initialize G4 kernel
   //
   runManager->Initialize();

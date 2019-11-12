@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1
+CMAKE_SOURCE_DIR = /home/shuojia/Downloads/geant4.10.05/shuo/CherProto/CherProto1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1/build
+CMAKE_BINARY_DIR = /home/shuojia/Downloads/geant4.10.05/shuo/CherProto/CherProto1/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/CherProto.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/CherProto.dir/flags.make
 
 CMakeFiles/CherProto.dir/CherProto.cc.o: CMakeFiles/CherProto.dir/flags.make
 CMakeFiles/CherProto.dir/CherProto.cc.o: ../CherProto.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CherProto.dir/CherProto.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CherProto.dir/CherProto.cc.o -c /home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1/CherProto.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuojia/Downloads/geant4.10.05/shuo/CherProto/CherProto1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CherProto.dir/CherProto.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CherProto.dir/CherProto.cc.o -c /home/shuojia/Downloads/geant4.10.05/shuo/CherProto/CherProto1/CherProto.cc
 
 CMakeFiles/CherProto.dir/CherProto.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CherProto.dir/CherProto.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1/CherProto.cc > CMakeFiles/CherProto.dir/CherProto.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shuojia/Downloads/geant4.10.05/shuo/CherProto/CherProto1/CherProto.cc > CMakeFiles/CherProto.dir/CherProto.cc.i
 
 CMakeFiles/CherProto.dir/CherProto.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CherProto.dir/CherProto.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1/CherProto.cc -o CMakeFiles/CherProto.dir/CherProto.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shuojia/Downloads/geant4.10.05/shuo/CherProto/CherProto1/CherProto.cc -o CMakeFiles/CherProto.dir/CherProto.cc.s
 
 CMakeFiles/CherProto.dir/CherProto.cc.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/CherProto.dir/CherProto.cc.o.provides.build: CMakeFiles/CherProto.dir
 
 CMakeFiles/CherProto.dir/src/CherProtoActionInitialization.cc.o: CMakeFiles/CherProto.dir/flags.make
 CMakeFiles/CherProto.dir/src/CherProtoActionInitialization.cc.o: ../src/CherProtoActionInitialization.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CherProto.dir/src/CherProtoActionInitialization.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CherProto.dir/src/CherProtoActionInitialization.cc.o -c /home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1/src/CherProtoActionInitialization.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuojia/Downloads/geant4.10.05/shuo/CherProto/CherProto1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CherProto.dir/src/CherProtoActionInitialization.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CherProto.dir/src/CherProtoActionInitialization.cc.o -c /home/shuojia/Downloads/geant4.10.05/shuo/CherProto/CherProto1/src/CherProtoActionInitialization.cc
 
 CMakeFiles/CherProto.dir/src/CherProtoActionInitialization.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CherProto.dir/src/CherProtoActionInitialization.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1/src/CherProtoActionInitialization.cc > CMakeFiles/CherProto.dir/src/CherProtoActionInitialization.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shuojia/Downloads/geant4.10.05/shuo/CherProto/CherProto1/src/CherProtoActionInitialization.cc > CMakeFiles/CherProto.dir/src/CherProtoActionInitialization.cc.i
 
 CMakeFiles/CherProto.dir/src/CherProtoActionInitialization.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CherProto.dir/src/CherProtoActionInitialization.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1/src/CherProtoActionInitialization.cc -o CMakeFiles/CherProto.dir/src/CherProtoActionInitialization.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shuojia/Downloads/geant4.10.05/shuo/CherProto/CherProto1/src/CherProtoActionInitialization.cc -o CMakeFiles/CherProto.dir/src/CherProtoActionInitialization.cc.s
 
 CMakeFiles/CherProto.dir/src/CherProtoActionInitialization.cc.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/CherProto.dir/src/CherProtoActionInitialization.cc.o.provides.build: 
 
 CMakeFiles/CherProto.dir/src/CherProtoDetectorConstruction.cc.o: CMakeFiles/CherProto.dir/flags.make
 CMakeFiles/CherProto.dir/src/CherProtoDetectorConstruction.cc.o: ../src/CherProtoDetectorConstruction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CherProto.dir/src/CherProtoDetectorConstruction.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CherProto.dir/src/CherProtoDetectorConstruction.cc.o -c /home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1/src/CherProtoDetectorConstruction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuojia/Downloads/geant4.10.05/shuo/CherProto/CherProto1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CherProto.dir/src/CherProtoDetectorConstruction.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CherProto.dir/src/CherProtoDetectorConstruction.cc.o -c /home/shuojia/Downloads/geant4.10.05/shuo/CherProto/CherProto1/src/CherProtoDetectorConstruction.cc
 
 CMakeFiles/CherProto.dir/src/CherProtoDetectorConstruction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CherProto.dir/src/CherProtoDetectorConstruction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1/src/CherProtoDetectorConstruction.cc > CMakeFiles/CherProto.dir/src/CherProtoDetectorConstruction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shuojia/Downloads/geant4.10.05/shuo/CherProto/CherProto1/src/CherProtoDetectorConstruction.cc > CMakeFiles/CherProto.dir/src/CherProtoDetectorConstruction.cc.i
 
 CMakeFiles/CherProto.dir/src/CherProtoDetectorConstruction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CherProto.dir/src/CherProtoDetectorConstruction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1/src/CherProtoDetectorConstruction.cc -o CMakeFiles/CherProto.dir/src/CherProtoDetectorConstruction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shuojia/Downloads/geant4.10.05/shuo/CherProto/CherProto1/src/CherProtoDetectorConstruction.cc -o CMakeFiles/CherProto.dir/src/CherProtoDetectorConstruction.cc.s
 
 CMakeFiles/CherProto.dir/src/CherProtoDetectorConstruction.cc.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/CherProto.dir/src/CherProtoDetectorConstruction.cc.o.provides.build: 
 
 CMakeFiles/CherProto.dir/src/CherProtoHit.cc.o: CMakeFiles/CherProto.dir/flags.make
 CMakeFiles/CherProto.dir/src/CherProtoHit.cc.o: ../src/CherProtoHit.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CherProto.dir/src/CherProtoHit.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CherProto.dir/src/CherProtoHit.cc.o -c /home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1/src/CherProtoHit.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuojia/Downloads/geant4.10.05/shuo/CherProto/CherProto1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CherProto.dir/src/CherProtoHit.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CherProto.dir/src/CherProtoHit.cc.o -c /home/shuojia/Downloads/geant4.10.05/shuo/CherProto/CherProto1/src/CherProtoHit.cc
 
 CMakeFiles/CherProto.dir/src/CherProtoHit.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CherProto.dir/src/CherProtoHit.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1/src/CherProtoHit.cc > CMakeFiles/CherProto.dir/src/CherProtoHit.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shuojia/Downloads/geant4.10.05/shuo/CherProto/CherProto1/src/CherProtoHit.cc > CMakeFiles/CherProto.dir/src/CherProtoHit.cc.i
 
 CMakeFiles/CherProto.dir/src/CherProtoHit.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CherProto.dir/src/CherProtoHit.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1/src/CherProtoHit.cc -o CMakeFiles/CherProto.dir/src/CherProtoHit.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shuojia/Downloads/geant4.10.05/shuo/CherProto/CherProto1/src/CherProtoHit.cc -o CMakeFiles/CherProto.dir/src/CherProtoHit.cc.s
 
 CMakeFiles/CherProto.dir/src/CherProtoHit.cc.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/CherProto.dir/src/CherProtoHit.cc.o.provides.build: CMakeFiles/CherPr
 
 CMakeFiles/CherProto.dir/src/CherProtoPhysicsList.cc.o: CMakeFiles/CherProto.dir/flags.make
 CMakeFiles/CherProto.dir/src/CherProtoPhysicsList.cc.o: ../src/CherProtoPhysicsList.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CherProto.dir/src/CherProtoPhysicsList.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CherProto.dir/src/CherProtoPhysicsList.cc.o -c /home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1/src/CherProtoPhysicsList.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuojia/Downloads/geant4.10.05/shuo/CherProto/CherProto1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CherProto.dir/src/CherProtoPhysicsList.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CherProto.dir/src/CherProtoPhysicsList.cc.o -c /home/shuojia/Downloads/geant4.10.05/shuo/CherProto/CherProto1/src/CherProtoPhysicsList.cc
 
 CMakeFiles/CherProto.dir/src/CherProtoPhysicsList.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CherProto.dir/src/CherProtoPhysicsList.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1/src/CherProtoPhysicsList.cc > CMakeFiles/CherProto.dir/src/CherProtoPhysicsList.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shuojia/Downloads/geant4.10.05/shuo/CherProto/CherProto1/src/CherProtoPhysicsList.cc > CMakeFiles/CherProto.dir/src/CherProtoPhysicsList.cc.i
 
 CMakeFiles/CherProto.dir/src/CherProtoPhysicsList.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CherProto.dir/src/CherProtoPhysicsList.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1/src/CherProtoPhysicsList.cc -o CMakeFiles/CherProto.dir/src/CherProtoPhysicsList.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shuojia/Downloads/geant4.10.05/shuo/CherProto/CherProto1/src/CherProtoPhysicsList.cc -o CMakeFiles/CherProto.dir/src/CherProtoPhysicsList.cc.s
 
 CMakeFiles/CherProto.dir/src/CherProtoPhysicsList.cc.o.requires:
 
@@ -179,16 +179,16 @@ CMakeFiles/CherProto.dir/src/CherProtoPhysicsList.cc.o.provides.build: CMakeFile
 
 CMakeFiles/CherProto.dir/src/CherProtoPhysicsListMessenger.cc.o: CMakeFiles/CherProto.dir/flags.make
 CMakeFiles/CherProto.dir/src/CherProtoPhysicsListMessenger.cc.o: ../src/CherProtoPhysicsListMessenger.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/CherProto.dir/src/CherProtoPhysicsListMessenger.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CherProto.dir/src/CherProtoPhysicsListMessenger.cc.o -c /home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1/src/CherProtoPhysicsListMessenger.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuojia/Downloads/geant4.10.05/shuo/CherProto/CherProto1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/CherProto.dir/src/CherProtoPhysicsListMessenger.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CherProto.dir/src/CherProtoPhysicsListMessenger.cc.o -c /home/shuojia/Downloads/geant4.10.05/shuo/CherProto/CherProto1/src/CherProtoPhysicsListMessenger.cc
 
 CMakeFiles/CherProto.dir/src/CherProtoPhysicsListMessenger.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CherProto.dir/src/CherProtoPhysicsListMessenger.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1/src/CherProtoPhysicsListMessenger.cc > CMakeFiles/CherProto.dir/src/CherProtoPhysicsListMessenger.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shuojia/Downloads/geant4.10.05/shuo/CherProto/CherProto1/src/CherProtoPhysicsListMessenger.cc > CMakeFiles/CherProto.dir/src/CherProtoPhysicsListMessenger.cc.i
 
 CMakeFiles/CherProto.dir/src/CherProtoPhysicsListMessenger.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CherProto.dir/src/CherProtoPhysicsListMessenger.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1/src/CherProtoPhysicsListMessenger.cc -o CMakeFiles/CherProto.dir/src/CherProtoPhysicsListMessenger.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shuojia/Downloads/geant4.10.05/shuo/CherProto/CherProto1/src/CherProtoPhysicsListMessenger.cc -o CMakeFiles/CherProto.dir/src/CherProtoPhysicsListMessenger.cc.s
 
 CMakeFiles/CherProto.dir/src/CherProtoPhysicsListMessenger.cc.o.requires:
 
@@ -203,16 +203,16 @@ CMakeFiles/CherProto.dir/src/CherProtoPhysicsListMessenger.cc.o.provides.build: 
 
 CMakeFiles/CherProto.dir/src/CherProtoPrimaryGeneratorAction.cc.o: CMakeFiles/CherProto.dir/flags.make
 CMakeFiles/CherProto.dir/src/CherProtoPrimaryGeneratorAction.cc.o: ../src/CherProtoPrimaryGeneratorAction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/CherProto.dir/src/CherProtoPrimaryGeneratorAction.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CherProto.dir/src/CherProtoPrimaryGeneratorAction.cc.o -c /home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1/src/CherProtoPrimaryGeneratorAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuojia/Downloads/geant4.10.05/shuo/CherProto/CherProto1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/CherProto.dir/src/CherProtoPrimaryGeneratorAction.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CherProto.dir/src/CherProtoPrimaryGeneratorAction.cc.o -c /home/shuojia/Downloads/geant4.10.05/shuo/CherProto/CherProto1/src/CherProtoPrimaryGeneratorAction.cc
 
 CMakeFiles/CherProto.dir/src/CherProtoPrimaryGeneratorAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CherProto.dir/src/CherProtoPrimaryGeneratorAction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1/src/CherProtoPrimaryGeneratorAction.cc > CMakeFiles/CherProto.dir/src/CherProtoPrimaryGeneratorAction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shuojia/Downloads/geant4.10.05/shuo/CherProto/CherProto1/src/CherProtoPrimaryGeneratorAction.cc > CMakeFiles/CherProto.dir/src/CherProtoPrimaryGeneratorAction.cc.i
 
 CMakeFiles/CherProto.dir/src/CherProtoPrimaryGeneratorAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CherProto.dir/src/CherProtoPrimaryGeneratorAction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1/src/CherProtoPrimaryGeneratorAction.cc -o CMakeFiles/CherProto.dir/src/CherProtoPrimaryGeneratorAction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shuojia/Downloads/geant4.10.05/shuo/CherProto/CherProto1/src/CherProtoPrimaryGeneratorAction.cc -o CMakeFiles/CherProto.dir/src/CherProtoPrimaryGeneratorAction.cc.s
 
 CMakeFiles/CherProto.dir/src/CherProtoPrimaryGeneratorAction.cc.o.requires:
 
@@ -227,16 +227,16 @@ CMakeFiles/CherProto.dir/src/CherProtoPrimaryGeneratorAction.cc.o.provides.build
 
 CMakeFiles/CherProto.dir/src/CherProtoPrimaryGeneratorMessenger.cc.o: CMakeFiles/CherProto.dir/flags.make
 CMakeFiles/CherProto.dir/src/CherProtoPrimaryGeneratorMessenger.cc.o: ../src/CherProtoPrimaryGeneratorMessenger.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/CherProto.dir/src/CherProtoPrimaryGeneratorMessenger.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CherProto.dir/src/CherProtoPrimaryGeneratorMessenger.cc.o -c /home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1/src/CherProtoPrimaryGeneratorMessenger.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuojia/Downloads/geant4.10.05/shuo/CherProto/CherProto1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/CherProto.dir/src/CherProtoPrimaryGeneratorMessenger.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CherProto.dir/src/CherProtoPrimaryGeneratorMessenger.cc.o -c /home/shuojia/Downloads/geant4.10.05/shuo/CherProto/CherProto1/src/CherProtoPrimaryGeneratorMessenger.cc
 
 CMakeFiles/CherProto.dir/src/CherProtoPrimaryGeneratorMessenger.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CherProto.dir/src/CherProtoPrimaryGeneratorMessenger.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1/src/CherProtoPrimaryGeneratorMessenger.cc > CMakeFiles/CherProto.dir/src/CherProtoPrimaryGeneratorMessenger.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shuojia/Downloads/geant4.10.05/shuo/CherProto/CherProto1/src/CherProtoPrimaryGeneratorMessenger.cc > CMakeFiles/CherProto.dir/src/CherProtoPrimaryGeneratorMessenger.cc.i
 
 CMakeFiles/CherProto.dir/src/CherProtoPrimaryGeneratorMessenger.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CherProto.dir/src/CherProtoPrimaryGeneratorMessenger.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1/src/CherProtoPrimaryGeneratorMessenger.cc -o CMakeFiles/CherProto.dir/src/CherProtoPrimaryGeneratorMessenger.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shuojia/Downloads/geant4.10.05/shuo/CherProto/CherProto1/src/CherProtoPrimaryGeneratorMessenger.cc -o CMakeFiles/CherProto.dir/src/CherProtoPrimaryGeneratorMessenger.cc.s
 
 CMakeFiles/CherProto.dir/src/CherProtoPrimaryGeneratorMessenger.cc.o.requires:
 
@@ -251,16 +251,16 @@ CMakeFiles/CherProto.dir/src/CherProtoPrimaryGeneratorMessenger.cc.o.provides.bu
 
 CMakeFiles/CherProto.dir/src/CherProtoQE.cc.o: CMakeFiles/CherProto.dir/flags.make
 CMakeFiles/CherProto.dir/src/CherProtoQE.cc.o: ../src/CherProtoQE.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/CherProto.dir/src/CherProtoQE.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CherProto.dir/src/CherProtoQE.cc.o -c /home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1/src/CherProtoQE.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuojia/Downloads/geant4.10.05/shuo/CherProto/CherProto1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/CherProto.dir/src/CherProtoQE.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CherProto.dir/src/CherProtoQE.cc.o -c /home/shuojia/Downloads/geant4.10.05/shuo/CherProto/CherProto1/src/CherProtoQE.cc
 
 CMakeFiles/CherProto.dir/src/CherProtoQE.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CherProto.dir/src/CherProtoQE.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1/src/CherProtoQE.cc > CMakeFiles/CherProto.dir/src/CherProtoQE.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shuojia/Downloads/geant4.10.05/shuo/CherProto/CherProto1/src/CherProtoQE.cc > CMakeFiles/CherProto.dir/src/CherProtoQE.cc.i
 
 CMakeFiles/CherProto.dir/src/CherProtoQE.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CherProto.dir/src/CherProtoQE.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1/src/CherProtoQE.cc -o CMakeFiles/CherProto.dir/src/CherProtoQE.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shuojia/Downloads/geant4.10.05/shuo/CherProto/CherProto1/src/CherProtoQE.cc -o CMakeFiles/CherProto.dir/src/CherProtoQE.cc.s
 
 CMakeFiles/CherProto.dir/src/CherProtoQE.cc.o.requires:
 
@@ -275,16 +275,16 @@ CMakeFiles/CherProto.dir/src/CherProtoQE.cc.o.provides.build: CMakeFiles/CherPro
 
 CMakeFiles/CherProto.dir/src/CherProtoRunAction.cc.o: CMakeFiles/CherProto.dir/flags.make
 CMakeFiles/CherProto.dir/src/CherProtoRunAction.cc.o: ../src/CherProtoRunAction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/CherProto.dir/src/CherProtoRunAction.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CherProto.dir/src/CherProtoRunAction.cc.o -c /home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1/src/CherProtoRunAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuojia/Downloads/geant4.10.05/shuo/CherProto/CherProto1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/CherProto.dir/src/CherProtoRunAction.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CherProto.dir/src/CherProtoRunAction.cc.o -c /home/shuojia/Downloads/geant4.10.05/shuo/CherProto/CherProto1/src/CherProtoRunAction.cc
 
 CMakeFiles/CherProto.dir/src/CherProtoRunAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CherProto.dir/src/CherProtoRunAction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1/src/CherProtoRunAction.cc > CMakeFiles/CherProto.dir/src/CherProtoRunAction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shuojia/Downloads/geant4.10.05/shuo/CherProto/CherProto1/src/CherProtoRunAction.cc > CMakeFiles/CherProto.dir/src/CherProtoRunAction.cc.i
 
 CMakeFiles/CherProto.dir/src/CherProtoRunAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CherProto.dir/src/CherProtoRunAction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1/src/CherProtoRunAction.cc -o CMakeFiles/CherProto.dir/src/CherProtoRunAction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shuojia/Downloads/geant4.10.05/shuo/CherProto/CherProto1/src/CherProtoRunAction.cc -o CMakeFiles/CherProto.dir/src/CherProtoRunAction.cc.s
 
 CMakeFiles/CherProto.dir/src/CherProtoRunAction.cc.o.requires:
 
@@ -299,16 +299,16 @@ CMakeFiles/CherProto.dir/src/CherProtoRunAction.cc.o.provides.build: CMakeFiles/
 
 CMakeFiles/CherProto.dir/src/CherProtoSD.cc.o: CMakeFiles/CherProto.dir/flags.make
 CMakeFiles/CherProto.dir/src/CherProtoSD.cc.o: ../src/CherProtoSD.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/CherProto.dir/src/CherProtoSD.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CherProto.dir/src/CherProtoSD.cc.o -c /home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1/src/CherProtoSD.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuojia/Downloads/geant4.10.05/shuo/CherProto/CherProto1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/CherProto.dir/src/CherProtoSD.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CherProto.dir/src/CherProtoSD.cc.o -c /home/shuojia/Downloads/geant4.10.05/shuo/CherProto/CherProto1/src/CherProtoSD.cc
 
 CMakeFiles/CherProto.dir/src/CherProtoSD.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CherProto.dir/src/CherProtoSD.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1/src/CherProtoSD.cc > CMakeFiles/CherProto.dir/src/CherProtoSD.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shuojia/Downloads/geant4.10.05/shuo/CherProto/CherProto1/src/CherProtoSD.cc > CMakeFiles/CherProto.dir/src/CherProtoSD.cc.i
 
 CMakeFiles/CherProto.dir/src/CherProtoSD.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CherProto.dir/src/CherProtoSD.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1/src/CherProtoSD.cc -o CMakeFiles/CherProto.dir/src/CherProtoSD.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shuojia/Downloads/geant4.10.05/shuo/CherProto/CherProto1/src/CherProtoSD.cc -o CMakeFiles/CherProto.dir/src/CherProtoSD.cc.s
 
 CMakeFiles/CherProto.dir/src/CherProtoSD.cc.o.requires:
 
@@ -323,16 +323,16 @@ CMakeFiles/CherProto.dir/src/CherProtoSD.cc.o.provides.build: CMakeFiles/CherPro
 
 CMakeFiles/CherProto.dir/src/CherProtoStackingAction.cc.o: CMakeFiles/CherProto.dir/flags.make
 CMakeFiles/CherProto.dir/src/CherProtoStackingAction.cc.o: ../src/CherProtoStackingAction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/CherProto.dir/src/CherProtoStackingAction.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CherProto.dir/src/CherProtoStackingAction.cc.o -c /home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1/src/CherProtoStackingAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuojia/Downloads/geant4.10.05/shuo/CherProto/CherProto1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/CherProto.dir/src/CherProtoStackingAction.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CherProto.dir/src/CherProtoStackingAction.cc.o -c /home/shuojia/Downloads/geant4.10.05/shuo/CherProto/CherProto1/src/CherProtoStackingAction.cc
 
 CMakeFiles/CherProto.dir/src/CherProtoStackingAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CherProto.dir/src/CherProtoStackingAction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1/src/CherProtoStackingAction.cc > CMakeFiles/CherProto.dir/src/CherProtoStackingAction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shuojia/Downloads/geant4.10.05/shuo/CherProto/CherProto1/src/CherProtoStackingAction.cc > CMakeFiles/CherProto.dir/src/CherProtoStackingAction.cc.i
 
 CMakeFiles/CherProto.dir/src/CherProtoStackingAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CherProto.dir/src/CherProtoStackingAction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1/src/CherProtoStackingAction.cc -o CMakeFiles/CherProto.dir/src/CherProtoStackingAction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shuojia/Downloads/geant4.10.05/shuo/CherProto/CherProto1/src/CherProtoStackingAction.cc -o CMakeFiles/CherProto.dir/src/CherProtoStackingAction.cc.s
 
 CMakeFiles/CherProto.dir/src/CherProtoStackingAction.cc.o.requires:
 
@@ -347,16 +347,16 @@ CMakeFiles/CherProto.dir/src/CherProtoStackingAction.cc.o.provides.build: CMakeF
 
 CMakeFiles/CherProto.dir/src/CherProtoSteppingAction.cc.o: CMakeFiles/CherProto.dir/flags.make
 CMakeFiles/CherProto.dir/src/CherProtoSteppingAction.cc.o: ../src/CherProtoSteppingAction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/CherProto.dir/src/CherProtoSteppingAction.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CherProto.dir/src/CherProtoSteppingAction.cc.o -c /home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1/src/CherProtoSteppingAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuojia/Downloads/geant4.10.05/shuo/CherProto/CherProto1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/CherProto.dir/src/CherProtoSteppingAction.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CherProto.dir/src/CherProtoSteppingAction.cc.o -c /home/shuojia/Downloads/geant4.10.05/shuo/CherProto/CherProto1/src/CherProtoSteppingAction.cc
 
 CMakeFiles/CherProto.dir/src/CherProtoSteppingAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CherProto.dir/src/CherProtoSteppingAction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1/src/CherProtoSteppingAction.cc > CMakeFiles/CherProto.dir/src/CherProtoSteppingAction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shuojia/Downloads/geant4.10.05/shuo/CherProto/CherProto1/src/CherProtoSteppingAction.cc > CMakeFiles/CherProto.dir/src/CherProtoSteppingAction.cc.i
 
 CMakeFiles/CherProto.dir/src/CherProtoSteppingAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CherProto.dir/src/CherProtoSteppingAction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1/src/CherProtoSteppingAction.cc -o CMakeFiles/CherProto.dir/src/CherProtoSteppingAction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shuojia/Downloads/geant4.10.05/shuo/CherProto/CherProto1/src/CherProtoSteppingAction.cc -o CMakeFiles/CherProto.dir/src/CherProtoSteppingAction.cc.s
 
 CMakeFiles/CherProto.dir/src/CherProtoSteppingAction.cc.o.requires:
 
@@ -371,16 +371,16 @@ CMakeFiles/CherProto.dir/src/CherProtoSteppingAction.cc.o.provides.build: CMakeF
 
 CMakeFiles/CherProto.dir/src/CherProtoSteppingVerbose.cc.o: CMakeFiles/CherProto.dir/flags.make
 CMakeFiles/CherProto.dir/src/CherProtoSteppingVerbose.cc.o: ../src/CherProtoSteppingVerbose.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/CherProto.dir/src/CherProtoSteppingVerbose.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CherProto.dir/src/CherProtoSteppingVerbose.cc.o -c /home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1/src/CherProtoSteppingVerbose.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuojia/Downloads/geant4.10.05/shuo/CherProto/CherProto1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/CherProto.dir/src/CherProtoSteppingVerbose.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CherProto.dir/src/CherProtoSteppingVerbose.cc.o -c /home/shuojia/Downloads/geant4.10.05/shuo/CherProto/CherProto1/src/CherProtoSteppingVerbose.cc
 
 CMakeFiles/CherProto.dir/src/CherProtoSteppingVerbose.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CherProto.dir/src/CherProtoSteppingVerbose.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1/src/CherProtoSteppingVerbose.cc > CMakeFiles/CherProto.dir/src/CherProtoSteppingVerbose.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shuojia/Downloads/geant4.10.05/shuo/CherProto/CherProto1/src/CherProtoSteppingVerbose.cc > CMakeFiles/CherProto.dir/src/CherProtoSteppingVerbose.cc.i
 
 CMakeFiles/CherProto.dir/src/CherProtoSteppingVerbose.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CherProto.dir/src/CherProtoSteppingVerbose.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1/src/CherProtoSteppingVerbose.cc -o CMakeFiles/CherProto.dir/src/CherProtoSteppingVerbose.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shuojia/Downloads/geant4.10.05/shuo/CherProto/CherProto1/src/CherProtoSteppingVerbose.cc -o CMakeFiles/CherProto.dir/src/CherProtoSteppingVerbose.cc.s
 
 CMakeFiles/CherProto.dir/src/CherProtoSteppingVerbose.cc.o.requires:
 
@@ -468,7 +468,7 @@ CherProto: /usr/local/lib/libG4intercoms.so
 CherProto: /usr/local/lib/libG4global.so
 CherProto: /usr/local/lib/libG4clhep.so
 CherProto: CMakeFiles/CherProto.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable CherProto"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/shuojia/Downloads/geant4.10.05/shuo/CherProto/CherProto1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable CherProto"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CherProto.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -498,6 +498,6 @@ CMakeFiles/CherProto.dir/clean:
 .PHONY : CMakeFiles/CherProto.dir/clean
 
 CMakeFiles/CherProto.dir/depend:
-	cd /home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1 /home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1 /home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1/build /home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1/build /home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1/build/CMakeFiles/CherProto.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/shuojia/Downloads/geant4.10.05/shuo/CherProto/CherProto1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/shuojia/Downloads/geant4.10.05/shuo/CherProto/CherProto1 /home/shuojia/Downloads/geant4.10.05/shuo/CherProto/CherProto1 /home/shuojia/Downloads/geant4.10.05/shuo/CherProto/CherProto1/build /home/shuojia/Downloads/geant4.10.05/shuo/CherProto/CherProto1/build /home/shuojia/Downloads/geant4.10.05/shuo/CherProto/CherProto1/build/CMakeFiles/CherProto.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/CherProto.dir/depend
 

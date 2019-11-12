@@ -5,7 +5,7 @@ CMakeFiles/CherProto.dir/CherProto.cc.o
  ../include/CherProtoActionInitialization.hh
  ../include/CherProtoDetectorConstruction.hh
  ../include/CherProtoPhysicsList.hh
- /home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1/CherProto.cc
+ /home/shuojia/Downloads/geant4.10.05/shuo/CherProto/CherProto1/CherProto.cc
  /usr/local/include/Geant4/CLHEP/Geometry/BasicVector3D.h
  /usr/local/include/Geant4/CLHEP/Geometry/Normal3D.h
  /usr/local/include/Geant4/CLHEP/Geometry/Plane3D.h
@@ -338,7 +338,7 @@ CMakeFiles/CherProto.dir/src/CherProtoActionInitialization.cc.o
  ../include/CherProtoStackingAction.hh
  ../include/CherProtoSteppingAction.hh
  ../include/CherProtoSteppingVerbose.hh
- /home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1/src/CherProtoActionInitialization.cc
+ /home/shuojia/Downloads/geant4.10.05/shuo/CherProto/CherProto1/src/CherProtoActionInitialization.cc
  /usr/local/include/Geant4/CLHEP/Random/DualRand.h
  /usr/local/include/Geant4/CLHEP/Random/JamesRandom.h
  /usr/local/include/Geant4/CLHEP/Random/MTwistEngine.h
@@ -504,7 +504,7 @@ CMakeFiles/CherProto.dir/src/CherProtoDetectorConstruction.cc.o
  ../include/CherProtoHit.hh
  ../include/CherProtoQE.hh
  ../include/CherProtoSD.hh
- /home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1/src/CherProtoDetectorConstruction.cc
+ /home/shuojia/Downloads/geant4.10.05/shuo/CherProto/CherProto1/src/CherProtoDetectorConstruction.cc
  /usr/local/include/Geant4/CLHEP/Geometry/BasicVector3D.h
  /usr/local/include/Geant4/CLHEP/Geometry/Normal3D.h
  /usr/local/include/Geant4/CLHEP/Geometry/Plane3D.h
@@ -678,7 +678,7 @@ CMakeFiles/CherProto.dir/src/CherProtoDetectorConstruction.cc.o
  /usr/local/include/Geant4/trkdefs.hh
 CMakeFiles/CherProto.dir/src/CherProtoHit.cc.o
  ../include/CherProtoHit.hh
- /home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1/src/CherProtoHit.cc
+ /home/shuojia/Downloads/geant4.10.05/shuo/CherProto/CherProto1/src/CherProtoHit.cc
  /usr/local/include/Geant4/CLHEP/Geometry/BasicVector3D.h
  /usr/local/include/Geant4/CLHEP/Geometry/Normal3D.h
  /usr/local/include/Geant4/CLHEP/Geometry/Point3D.h
@@ -729,7 +729,7 @@ CMakeFiles/CherProto.dir/src/CherProtoHit.cc.o
 CMakeFiles/CherProto.dir/src/CherProtoPhysicsList.cc.o
  ../include/CherProtoPhysicsList.hh
  ../include/CherProtoPhysicsListMessenger.hh
- /home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1/src/CherProtoPhysicsList.cc
+ /home/shuojia/Downloads/geant4.10.05/shuo/CherProto/CherProto1/src/CherProtoPhysicsList.cc
  /usr/local/include/Geant4/CLHEP/Geometry/BasicVector3D.h
  /usr/local/include/Geant4/CLHEP/Geometry/Normal3D.h
  /usr/local/include/Geant4/CLHEP/Geometry/Point3D.h
@@ -1139,7 +1139,7 @@ CMakeFiles/CherProto.dir/src/CherProtoPhysicsList.cc.o
 CMakeFiles/CherProto.dir/src/CherProtoPhysicsListMessenger.cc.o
  ../include/CherProtoPhysicsList.hh
  ../include/CherProtoPhysicsListMessenger.hh
- /home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1/src/CherProtoPhysicsListMessenger.cc
+ /home/shuojia/Downloads/geant4.10.05/shuo/CherProto/CherProto1/src/CherProtoPhysicsListMessenger.cc
  /usr/local/include/Geant4/CLHEP/Units/PhysicalConstants.h
  /usr/local/include/Geant4/CLHEP/Units/SystemOfUnits.h
  /usr/local/include/Geant4/CLHEP/Utility/defs.h
@@ -1189,7 +1189,7 @@ CMakeFiles/CherProto.dir/src/CherProtoPhysicsListMessenger.cc.o
 CMakeFiles/CherProto.dir/src/CherProtoPrimaryGeneratorAction.cc.o
  ../include/CherProtoPrimaryGeneratorAction.hh
  ../include/CherProtoPrimaryGeneratorMessenger.hh
- /home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1/src/CherProtoPrimaryGeneratorAction.cc
+ /home/shuojia/Downloads/geant4.10.05/shuo/CherProto/CherProto1/src/CherProtoPrimaryGeneratorAction.cc
  /usr/local/include/Geant4/CLHEP/Random/DualRand.h
  /usr/local/include/Geant4/CLHEP/Random/JamesRandom.h
  /usr/local/include/Geant4/CLHEP/Random/MTwistEngine.h
@@ -1258,6 +1258,7 @@ CMakeFiles/CherProto.dir/src/CherProtoPrimaryGeneratorAction.cc.o
  /usr/local/include/Geant4/G4ParticleTable.hh
  /usr/local/include/Geant4/G4ParticleTable.icc
  /usr/local/include/Geant4/G4ParticleTableIterator.hh
+ /usr/local/include/Geant4/G4PhysicalConstants.hh
  /usr/local/include/Geant4/G4PrimaryParticle.hh
  /usr/local/include/Geant4/G4PrimaryVertex.hh
  /usr/local/include/Geant4/G4String.hh
@@ -1289,7 +1290,7 @@ CMakeFiles/CherProto.dir/src/CherProtoPrimaryGeneratorAction.cc.o
 CMakeFiles/CherProto.dir/src/CherProtoPrimaryGeneratorMessenger.cc.o
  ../include/CherProtoPrimaryGeneratorAction.hh
  ../include/CherProtoPrimaryGeneratorMessenger.hh
- /home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1/src/CherProtoPrimaryGeneratorMessenger.cc
+ /home/shuojia/Downloads/geant4.10.05/shuo/CherProto/CherProto1/src/CherProtoPrimaryGeneratorMessenger.cc
  /usr/local/include/Geant4/CLHEP/Units/SystemOfUnits.h
  /usr/local/include/Geant4/CLHEP/Utility/defs.h
  /usr/local/include/Geant4/CLHEP/Vector/ThreeVector.h
@@ -1317,7 +1318,7 @@ CMakeFiles/CherProto.dir/src/CherProtoPrimaryGeneratorMessenger.cc.o
  /usr/local/include/Geant4/tls.hh
 CMakeFiles/CherProto.dir/src/CherProtoQE.cc.o
  ../include/CherProtoQE.hh
- /home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1/src/CherProtoQE.cc
+ /home/shuojia/Downloads/geant4.10.05/shuo/CherProto/CherProto1/src/CherProtoQE.cc
  /usr/local/include/Geant4/CLHEP/Units/SystemOfUnits.h
  /usr/local/include/Geant4/CLHEP/Utility/defs.h
  /usr/local/include/Geant4/CLHEP/Vector/ThreeVector.h
@@ -1341,7 +1342,7 @@ CMakeFiles/CherProto.dir/src/CherProtoRunAction.cc.o
  ../include/CherProtoHit.hh
  ../include/CherProtoRunAction.hh
  ../include/CherProtoSD.hh
- /home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1/src/CherProtoRunAction.cc
+ /home/shuojia/Downloads/geant4.10.05/shuo/CherProto/CherProto1/src/CherProtoRunAction.cc
  /usr/local/include/Geant4/CLHEP/Geometry/BasicVector3D.h
  /usr/local/include/Geant4/CLHEP/Geometry/Normal3D.h
  /usr/local/include/Geant4/CLHEP/Geometry/Point3D.h
@@ -1752,7 +1753,7 @@ CMakeFiles/CherProto.dir/src/CherProtoSD.cc.o
  ../include/CherProtoHit.hh
  ../include/CherProtoQE.hh
  ../include/CherProtoSD.hh
- /home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1/src/CherProtoSD.cc
+ /home/shuojia/Downloads/geant4.10.05/shuo/CherProto/CherProto1/src/CherProtoSD.cc
  /usr/local/include/Geant4/CLHEP/Geometry/BasicVector3D.h
  /usr/local/include/Geant4/CLHEP/Geometry/Normal3D.h
  /usr/local/include/Geant4/CLHEP/Geometry/Point3D.h
@@ -2029,7 +2030,7 @@ CMakeFiles/CherProto.dir/src/CherProtoSD.cc.o
  /usr/local/include/Geant4/trkdefs.hh
 CMakeFiles/CherProto.dir/src/CherProtoStackingAction.cc.o
  ../include/CherProtoStackingAction.hh
- /home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1/src/CherProtoStackingAction.cc
+ /home/shuojia/Downloads/geant4.10.05/shuo/CherProto/CherProto1/src/CherProtoStackingAction.cc
  /usr/local/include/Geant4/CLHEP/Random/DualRand.h
  /usr/local/include/Geant4/CLHEP/Random/JamesRandom.h
  /usr/local/include/Geant4/CLHEP/Random/MTwistEngine.h
@@ -2286,7 +2287,7 @@ CMakeFiles/CherProto.dir/src/CherProtoStackingAction.cc.o
  /usr/local/include/Geant4/trkdefs.hh
 CMakeFiles/CherProto.dir/src/CherProtoSteppingAction.cc.o
  ../include/CherProtoSteppingAction.hh
- /home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1/src/CherProtoSteppingAction.cc
+ /home/shuojia/Downloads/geant4.10.05/shuo/CherProto/CherProto1/src/CherProtoSteppingAction.cc
  /usr/local/include/Geant4/CLHEP/Geometry/BasicVector3D.h
  /usr/local/include/Geant4/CLHEP/Geometry/Normal3D.h
  /usr/local/include/Geant4/CLHEP/Geometry/Point3D.h
@@ -2533,7 +2534,7 @@ CMakeFiles/CherProto.dir/src/CherProtoSteppingAction.cc.o
  /usr/local/include/Geant4/trkdefs.hh
 CMakeFiles/CherProto.dir/src/CherProtoSteppingVerbose.cc.o
  ../include/CherProtoSteppingVerbose.hh
- /home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1/src/CherProtoSteppingVerbose.cc
+ /home/shuojia/Downloads/geant4.10.05/shuo/CherProto/CherProto1/src/CherProtoSteppingVerbose.cc
  /usr/local/include/Geant4/CLHEP/Geometry/BasicVector3D.h
  /usr/local/include/Geant4/CLHEP/Geometry/Normal3D.h
  /usr/local/include/Geant4/CLHEP/Geometry/Point3D.h

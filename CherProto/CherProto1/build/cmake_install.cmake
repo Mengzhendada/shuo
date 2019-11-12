@@ -1,4 +1,4 @@
-# Install script for directory: /home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1
+# Install script for directory: /home/shuojia/Downloads/geant4.10.05/shuo/CherProto/CherProto1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,7 +44,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/CherProto"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1/build/CherProto")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/shuojia/Downloads/geant4.10.05/shuo/CherProto/CherProto1/build/CherProto")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/CherProto" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/CherProto")
     file(RPATH_CHANGE
@@ -65,5 +65,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/shuojia/Downloads/geant4.10.05/examples/shuo/CherProto/CherProto1/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/shuojia/Downloads/geant4.10.05/shuo/CherProto/CherProto1/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

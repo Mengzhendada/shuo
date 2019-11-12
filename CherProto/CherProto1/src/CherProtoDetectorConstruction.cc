@@ -49,8 +49,8 @@ G4VPhysicalVolume* CherProtoDetectorConstruction::Construct()
   air ->AddElement(N,70.*perCent);
   air ->AddElement(O,30.*perCent);
   //Nitrogen
-  G4Material* nitrogen = new G4Material("Nitrogen", density=1.25*mg/cm3,nelements=1);
-  nitrogen ->AddElement(N,100.*perCent);
+  //G4Material* nitrogen = new G4Material("Nitrogen", density=1.25*mg/cm3,nelements=1);
+  //nitrogen ->AddElement(N,100.*perCent);
   //CO2
   G4Element* C = new G4Element("Carbon","C",z=6, a = 12.01*g/mole);
   G4Material* CO2 = new G4Material("CO2",density = 1.98*mg/cm3,nelements = 2);
@@ -62,10 +62,10 @@ G4VPhysicalVolume* CherProtoDetectorConstruction::Construct()
   //
 // ------------ Generate & Add Material Properties Table ------------
 //
-  G4cout<<"test 1"<<G4endl;
+  //G4cout<<"test 1"<<G4endl;
   CherProtoQE pmt;
   G4int nEntries = pmt.photonEnergy.size();
-  G4cout<<"Size of photonEnergy "<<nEntries<<G4endl;
+  //G4cout<<"Size of photonEnergy "<<nEntries<<G4endl;
  
 
 //
@@ -101,24 +101,24 @@ for(int i = 0;i<nEntries;++i){refractiveIndex2[i]=1;}
      CO2 ->SetMaterialPropertiesTable(myMPT4);
 
    //nitrogen
- vector<G4double> refractiveIndex3(nEntries);
- //vector<G4double> refractiveIndex4(nEntries);
- G4double wavelength;
-   for(int i=0;i<nEntries;i++){
-     wavelength=1*1E3*4.13566766*1E-15*2.99792458*1E8/(pmt.photonEnergy[i]/eV);
-     G4cout<<"e"<<pmt.photonEnergy[i];
-   //  wavelength = (pmt.photonEnergy[i]/eV)*1.24;
-     refractiveIndex3[i]=1+6.8552*1E-5+3.243157*1E-2/(144-wavelength*wavelength);
-   //G4double l2 = 1/(wavelength*wavelength);
-   //G4cout<<" l "<<wavelength;
-   //refractiveIndex4[i]=1+6.99100*1E-2/(166.175-l2)+1.44720*1E-3/(79.609-l2)+6.42941*1E-5/(56.3064-l2)+5.21306*1E-5/(46.0196-l2)+1.46847*1E-6/(0.0584738-l2);  
-   //G4cout<<" nitrogen "<<refractiveIndex3[i]<<" CO2 "<<refractiveIndex4[i]<<G4endl;
-   }
-       G4MaterialPropertiesTable* myMPT3 = new G4MaterialPropertiesTable();
-       myMPT3->AddProperty("RINDEX",pmt.photonEnergy.data(),refractiveIndex3.data(), nEntries);
-     G4cout <<"Nitrogen G4MaterialPropertiesTable"<<G4endl;
-     myMPT3->DumpTable();
-     nitrogen ->SetMaterialPropertiesTable(myMPT3);
+// vector<G4double> refractiveIndex3(nEntries);
+// //vector<G4double> refractiveIndex4(nEntries);
+// G4double wavelength;
+//   for(int i=0;i<nEntries;i++){
+//     wavelength=1*1E3*4.13566766*1E-15*2.99792458*1E8/(pmt.photonEnergy[i]/eV);
+//     //G4cout<<"e"<<pmt.photonEnergy[i];
+//   //  wavelength = (pmt.photonEnergy[i]/eV)*1.24;
+//     refractiveIndex3[i]=1+6.8552*1E-5+3.243157*1E-2/(144-wavelength*wavelength);
+//   //G4double l2 = 1/(wavelength*wavelength);
+//   //G4cout<<" l "<<wavelength;
+//   //refractiveIndex4[i]=1+6.99100*1E-2/(166.175-l2)+1.44720*1E-3/(79.609-l2)+6.42941*1E-5/(56.3064-l2)+5.21306*1E-5/(46.0196-l2)+1.46847*1E-6/(0.0584738-l2);  
+//   //G4cout<<" nitrogen "<<refractiveIndex3[i]<<" CO2 "<<refractiveIndex4[i]<<G4endl;
+//   }
+//       G4MaterialPropertiesTable* myMPT3 = new G4MaterialPropertiesTable();
+//       myMPT3->AddProperty("RINDEX",pmt.photonEnergy.data(),refractiveIndex3.data(), nEntries);
+//     G4cout <<"Nitrogen G4MaterialPropertiesTable"<<G4endl;
+//     myMPT3->DumpTable();
+//     nitrogen ->SetMaterialPropertiesTable(myMPT3);
 //CO2
   //vector<G4double> refractiveIndex4(nEntries);
   //G4double wavelength;
